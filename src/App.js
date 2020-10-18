@@ -1,17 +1,32 @@
 import { Link } from 'react-router-dom'
 import React, { Fragment } from 'react'
-import AppBar from '@material-ui/core/AppBar';
-import Toolbar from '@material-ui/core/Toolbar';
-import Typography from '@material-ui/core/Typography';
-import Button from '@material-ui/core/Button';
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+} from "react-router-dom";
 import './App.css';
+import Work from './components/Work';
+import Projects from './components/Projects';
+import Goals from './components/Goals';
 
 function App() {
   return (
-    <div className="App">
-         <div>HI I'M ZAIBA</div>
-
-    </div>
+    <Router>
+    <div>
+    <Switch>
+        <Route exact path="/">
+          <Work />
+        </Route>
+        <Route path="/project">
+          <Projects />
+        </Route>
+        <Route path="/goals">
+          <Goals />
+        </Route>
+    </Switch>
+  </div>
+  </Router>
   );
 }
 

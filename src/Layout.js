@@ -14,9 +14,9 @@ export default function Layout({children}) {
                 <Typography variant="h6" >
                 All in One App
                 </Typography>
-                <Button color="inherit" component={Link} to={'/'}>Jira</Button>
-                <Button color="inherit" component={Link} to={'/table'}>Table</Button>
-                <Button color="inherit" component={Link} to={'/week'}>Week</Button>
+                <Button color="inherit" component={Link} to={'/'}>Work</Button>
+                <Button color="inherit" component={Link} to={'/project'}>Projects</Button>
+                <Button color="inherit" component={Link} to={'/goals'}>Goals</Button>
             </Toolbar>
         </AppBar>
         <div className="page-wrapper">{children}</div>
