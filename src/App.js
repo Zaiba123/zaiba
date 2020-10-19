@@ -6,7 +6,7 @@ import {
   Route,
 } from "react-router-dom";
 import './App.css';
-import Work from './components/Work';
+import Home from './components/Home';
 import Projects from './components/Projects';
 import Goals from './components/Goals';
 
@@ -16,7 +16,7 @@ function App() {
     <div>
     <Switch>
         <Route exact path="/">
-          <Work />
+          <Home />
         </Route>
         <Route path="/project">
           <Projects />
