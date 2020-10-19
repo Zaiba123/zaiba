@@ -14,26 +14,24 @@ const useStyles = makeStyles({
     },
   });
 
-export default function ProjectCards({name}) {
+export default function ProjectCards({name,description,picture}) {
     const classes = useStyles();
     return (
         <div>
             <Card className={classes.root}>
                 <CardActionArea>
                     <CardMedia
-                    component="img"
-                    alt="Contemplative Reptile"
+                    alt="in-chat-nito"
                     height="140"
-                    image="/static/images/cards/contemplative-reptile.jpg"
-                    title="Contemplative Reptile"
+                    image={picture}
+                    title="inChatNito"
                     />
                     <CardContent>
                     <Typography gutterBottom variant="h5" component="h2">
                         {name}
                     </Typography>
                     <Typography variant="body2" color="textSecondary" component="p">
-                        Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging
-                        across all continents except Antarctica
+                        {description}
                     </Typography>
                     </CardContent>
                 </CardActionArea>
