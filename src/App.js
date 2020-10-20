@@ -6,9 +6,9 @@ import {
   Route,
 } from "react-router-dom";
 import './App.css';
-import Home from './components/Home';
-import Projects from './components/Projects';
-import Goals from './components/Goals';
+import Home from './pages/Home';
+import Goals from './pages/Goals';
+import Projects from './pages/Projects';
 
 function App() {
   return (
@@ -19,7 +19,7 @@ function App() {
           <Home />
         </Route>
         <Route path="/project">
-          <Projects />
+            <Projects />
         </Route>
         <Route path="/goals">
           <Goals />

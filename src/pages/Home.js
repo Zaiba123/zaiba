@@ -1,5 +1,7 @@
 import React from 'react'
-import Layout from '../Layout'
+import Layout from '../components/Layout'
+// import eventurous from '../images/eventurous.png'
+
 
 export default function Home() {
     return (
