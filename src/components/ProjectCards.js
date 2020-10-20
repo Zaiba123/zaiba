@@ -7,22 +7,34 @@ import CardContent from '@material-ui/core/CardContent';
 import CardMedia from '@material-ui/core/CardMedia';
 import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
-import inChatNito from '../images/in-chat-nito.png';
-import eventurous from '../images/eventurous.png';
-import noYouChoose from '../images/noYouChoose.png';
 
-const useStyles = makeStyles({
+
+export const useStyles = makeStyles({
     root: {
       maxWidth: 345,
+      display:"grid",
+      gridTemplateAreas:"a b c",
+
     },
+    a: {
+        display:"grid",
+    },
+    b: {
+        display:"grid",
+    },
+    c: {
+        display:"grid",
+    },
+    
   });
 
-export default function ProjectCards({name,description,picture}) {
+export default function ProjectCards({name,description,picture,classTitle}) {
     const classes = useStyles();
     return (
         <div>
-            <Card className={classes.root}>
-                <CardActionArea>
+            <div className={classes.root}>
+            <Card className={`classes.${classTitle}`}>
+                <CardActionArea >
                     <CardMedia
                     component="img"
                     alt="Contemplative Reptile"
@@ -48,6 +60,7 @@ export default function ProjectCards({name,description,picture}) {
                     </Button>
                 </CardActions>
                 </Card>
+                </div>
         </div>
     )
 }
