@@ -1,0 +1,25 @@
+.garden{
+    /* max-Width: 200; */
+    display:grid;
+    /* grid-template-areas: "a b c" ; */
+}
+.MuiCardMedia-img.jk{
+    object-fit: contain;
+}
+.MuiCardActionArea-root.actionArea{
+    text-align: center;
+}
+/* .a{
+    border: solid blueviolet 4px;
+    grid-area: a;
+}
+.b{
+    background-color:pink;
+    border: solid pink 4px;
+    grid-area: b;
+}
+.c{
+    border: solid green 4px;
+    grid-area: c;
+
+} */

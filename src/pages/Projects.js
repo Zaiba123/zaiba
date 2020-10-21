@@ -8,27 +8,27 @@ import inChatNito from '../images/in-chat-nito.png';
 import eventurous from '../images/eventurous.png';
 import noYouChoose from '../images/noYouChoose.png';
 
-const divStyles = makeStyles({
-    root: {
-      maxWidth: 345,
-      display:"grid",
-      gridTemplateAreas:"a b c",
+// const divStyles = makeStyles({
+//     root: {
+//       maxWidth: 345,
+//       display:"grid",
+//       gridTemplateAreas:"a b c",
 
-    },
-    a: {
-        display:"grid",
-    },
-    b: {
-        display:"grid",
-    },
-    c: {
-        display:"grid",
-    },
+//     },
+//     a: {
+//         display:"grid",
+//     },
+//     b: {
+//         display:"grid",
+//     },
+//     c: {
+//         display:"grid",
+//     },
     
-  });
+//   });
 
 export default function Projects() {
-    const classes = divStyles();
+    // const classes = divStyles();
 
     const project =
         [
@@ -36,7 +36,8 @@ export default function Projects() {
                 name:"In-chat-nito",
                 description:"Application allows students who are shy to ask the teacher questions in real-time.",
                 img: inChatNito,
-                classTitle: "a",
+                classTitle: 'a',
+                imageTitle:"In-chat-nito"
 
             },
             {
@@ -44,6 +45,7 @@ export default function Projects() {
                 description:  "Application that puts all your basic traveling needs such as currency exchange, places to visit, events happening right now and the weather forecast into one app.",
                 img: eventurous,
                 classTitle: "b",
+                imageTitle:"Eventurous"
 
             },
             {
@@ -51,16 +53,17 @@ export default function Projects() {
                 description:"Application takes a user's current location and gives a randomized restaurant for user to try. This encourages being adventurous and trying new places to eat.",
                 img:noYouChoose,
                 classTitle: "c",
+                imageTitle:"no-You-choose"
             },
         ]
 
     return (
         <Layout>
-            <div className={classes.root}>
+            {/* <div className={classes.root}> */}
             {
-                project.map(item => <ProjectCards name={item.name} description={item.description} picture={item.img} classTitle={item.classTitle}/>)
+                project.map(item => <ProjectCards name={item.name} description={item.description} picture={item.img} classTitle={item.classTitle} imageTitle={item.imageTitle}/>)
             }
-            </div>
+            {/* </div> */}
         </Layout>
     )
 }

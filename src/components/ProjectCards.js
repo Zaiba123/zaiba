@@ -7,54 +7,58 @@ import CardContent from '@material-ui/core/CardContent';
 import CardMedia from '@material-ui/core/CardMedia';
 import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
+import './project.css';
 
 
 export const useStyles = makeStyles({
-    root: {
-      maxWidth: 345,
-      display:"grid",
-      gridTemplateAreas:"a b c",
+    cardStyle: {
+      maxWidth: 0,
+    //   display:"grid",
+
+      //gridTemplateColumns:"400px ",
+      //gridTemplateColumns:"400px "
+      //gridTemplateAreas:"'a a a' 'b b b' 'c c c'",
 
     },
-    a: {
-        display:"grid",
-    },
-    b: {
-        display:"grid",
-    },
-    c: {
-        display:"grid",
-    },
+    // a: {
+    //     display:"grid",
+    // },
+    // b: {
+    //     border: "solid pink 4px",
+    //     gridarea: "b",
+    // },
+    // c: {
+    //     display:"grid",
+    // },
     
   });
 
-export default function ProjectCards({name,description,picture,classTitle}) {
+export default function ProjectCards({name,description,picture,classTitle,imageTitle}) {
     const classes = useStyles();
     return (
         <div>
-            <div className={classes.root}>
-            <Card className={`classes.${classTitle}`}>
-                <CardActionArea >
+            <div className="garden" >
+            <Card className={classTitle}>
+                <CardActionArea className="actionArea">
                     <CardMedia
+                    className="jk"
                     component="img"
                     alt="Contemplative Reptile"
-                    height="140"
+                    height="200"
+                    width="600"
                     image={picture}
-                    title="Contemplative Reptile"
+                    title={imageTitle}
                     />
                     <CardContent>
-                    <Typography gutterBottom variant="h5" component="h2">
+                    <Typography gutterBottom variant="h5" >
                         {name}
                     </Typography>
-                    <Typography variant="body2" color="textSecondary" component="p">
+                    <Typography variant="body2" color="textSecondary" >
                         {description}
                     </Typography>
                     </CardContent>
                 </CardActionArea>
                 <CardActions>
-                    <Button size="small" color="primary">
-                    Share
-                    </Button>
                     <Button size="small" color="primary">
                     Learn More
                     </Button>
