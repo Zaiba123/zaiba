@@ -1,7 +1,7 @@
 .garden{
     /* max-Width: 200; */
     display:grid;
-    /* grid-template-areas: "a b c" ; */
+    grid-template-columns: "200px 200px 200px " ;
 }
 .MuiCardMedia-img.jk{
     object-fit: contain;
@@ -9,17 +9,20 @@
 .MuiCardActionArea-root.actionArea{
     text-align: center;
 }
-/* .a{
-    border: solid blueviolet 4px;
+.a{
+    border: solid #b19cd9 2px;
     grid-area: a;
 }
 .b{
     background-color:pink;
-    border: solid pink 4px;
+    border: solid#b19cd9 2px;
     grid-area: b;
 }
 .c{
-    border: solid green 4px;
+    border: solid #b19cd9  2px;
     grid-area: c;
 
-} */
+}
+.MuiAppBar-colorPrimary.navBar{
+    background-color: rgb(10, 0,210);opacity:0.2;
+}

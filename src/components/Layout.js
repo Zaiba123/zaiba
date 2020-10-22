@@ -9,7 +9,7 @@ export default function Layout({children}) {
     return (
         <Fragment>
 
-        <AppBar position="static">  
+        <AppBar position="static" className="navBar">  
            <Toolbar>
                 <Typography variant="h6" >
                 Zaiba 
