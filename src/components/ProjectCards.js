@@ -12,7 +12,7 @@ import './project.css';
 
 export const useStyles = makeStyles({
     cardStyle: {
-      maxWidth: 0,
+      maxWidth: "300px",
     //   display:"grid",
 
       //gridTemplateColumns:"400px ",
