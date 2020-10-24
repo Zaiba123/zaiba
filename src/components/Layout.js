@@ -7,7 +7,7 @@ import Button from '@material-ui/core/Button';
 
 export default function Layout({children}) {
     return (
-        <Fragment>
+        <div>
 
         <AppBar position="static" className="navBar">  
            <Toolbar>
@@ -20,6 +20,6 @@ export default function Layout({children}) {
             </Toolbar>
         </AppBar>
         <div className="page-wrapper">{children}</div>
-        </Fragment>
+        </div>
     )
 }

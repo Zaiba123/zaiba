@@ -8,28 +8,8 @@ import inChatNito from '../images/in-chat-nito.png';
 import eventurous from '../images/eventurous.png';
 import noYouChoose from '../images/noYouChoose.png';
 
-// const divStyles = makeStyles({
-//     root: {
-//       maxWidth: 345,
-//       display:"grid",
-//       gridTemplateAreas:"a b c",
-
-//     },
-//     a: {
-//         display:"grid",
-//     },
-//     b: {
-//         display:"grid",
-//     },
-//     c: {
-//         display:"grid",
-//     },
-    
-//   });
 
 export default function Projects() {
-    // const classes = divStyles();
-
     const project =
         [
             {
