@@ -13,30 +13,13 @@ import './project.css';
 export const useStyles = makeStyles({
     cardStyle: {
       maxWidth: "300px",
-    //   display:"grid",
-
-      //gridTemplateColumns:"400px ",
-      //gridTemplateColumns:"400px "
-      //gridTemplateAreas:"'a a a' 'b b b' 'c c c'",
-
     },
-    // a: {
-    //     display:"grid",
-    // },
-    // b: {
-    //     border: "solid pink 4px",
-    //     gridarea: "b",
-    // },
-    // c: {
-    //     display:"grid",
-    // },
     
   });
 
 export default function ProjectCards({name,description,picture,classTitle,imageTitle}) {
     const classes = useStyles();
     return (
-        <div className="bg-image">
             <div className="garden" >
             <Card className={classTitle}>
                 <CardActionArea className="actionArea">
@@ -64,7 +47,6 @@ export default function ProjectCards({name,description,picture,classTitle,imageT
                     </Button>
                 </CardActions>
                 </Card>
-                </div>
-        </div>
+            </div>
     )
 }

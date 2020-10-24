@@ -60,9 +60,11 @@ export default function Projects() {
     return (
         <Layout>
             {/* <div className={classes.root}> */}
+            <div className="bg-image">
             {
                 project.map(item => <ProjectCards name={item.name} description={item.description} picture={item.img} classTitle={item.classTitle} imageTitle={item.imageTitle}/>)
             }
+            </div>
             {/* </div> */}
         </Layout>
     )

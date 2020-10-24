@@ -14,7 +14,7 @@
     object-fit: contain;
 }
 .MuiCard-root {
-    max-width: 40rem;
+    max-width: 45rem;
 }
 .MuiCardMedia-img.jk{
     object-fit: contain;
@@ -24,7 +24,7 @@
     text-align: center;
 }
 .a{
-    border: solid #b19cd9 2px;
+    border: solid #c585c5 2px;
     grid-area: a;
 }
 .b{
@@ -39,5 +39,5 @@
 
 }
 .MuiAppBar-colorPrimary.navBar{
-    background-color: rgb(10, 0,210);opacity:0.2;
+    background-color:#C8A2C8;
 }
