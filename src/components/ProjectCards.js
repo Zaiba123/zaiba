@@ -36,7 +36,7 @@ export const useStyles = makeStyles({
 export default function ProjectCards({name,description,picture,classTitle,imageTitle}) {
     const classes = useStyles();
     return (
-        <div>
+        <div className="bg-image">
             <div className="garden" >
             <Card className={classTitle}>
                 <CardActionArea className="actionArea">
