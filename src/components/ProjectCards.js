@@ -43,7 +43,7 @@ export default function ProjectCards({name,description,picture,classTitle,imageT
                     <CardMedia
                     className="jk"
                     component="img"
-                    alt="Contemplative Reptile"
+                    alt="project"
                     height="200"
                     width="600"
                     image={picture}
