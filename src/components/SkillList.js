@@ -68,39 +68,47 @@ export default function InteractiveList() {
         <Grid item xs={12} md={6}>
           <div className={classes.demo}>
             <List dense={dense}>
-              {generate(
-                <ListItem>
-                  <ListItemIcon>
-                    <WbSunnyIcon />
-                  </ListItemIcon>
-                  {languages.map((lang) => {
+                {
+                  languages.map(lan => {
                       return (
-                          <ListItemText primary={lang} />
+                        <ListItem>
+                        <ListItemIcon>
+                          <WbSunnyIcon />
+                        </ListItemIcon>
+                        {/* {languages.map((lang) => {
+                            return (
+                                <ListItemText primary={lang} />
+                            )
+                        })} */}
+                        <ListItemText
+                          primary={lan}
+                          secondary={secondary ? 'Secondary text' : null}
+                        />
+                      </ListItem>
                       )
-                  })}
-                  {/* <ListItemText
-                    primary="Single-line item"
-                    secondary={secondary ? 'Secondary text' : null}
-                  /> */}
-                </ListItem>,
-              )}
+                  })
+                }   
             </List>
           </div>
         </Grid>
         <Grid item xs={12} md={6}>
           <div className={classes.demo}>
-            <List dense={dense}>
-              {generate(
-                <ListItem>
-                  <ListItemIcon>
-                    <WbSunnyIcon />
-                  </ListItemIcon>
-                  {/* <ListItemText
-                    primary="Single-line item"
-                    secondary={secondary ? 'Secondary text' : null}
-                  /> */}
-                </ListItem>,
-              )}
+          <List dense={dense}>
+                {
+                  moreLanguages.map(lan => {
+                      return (
+                        <ListItem>
+                        <ListItemIcon>
+                          <WbSunnyIcon />
+                        </ListItemIcon>
+                        <ListItemText
+                          primary={lan}
+                          secondary={secondary ? 'Secondary text' : null}
+                        />
+                      </ListItem>
+                      )
+                  })
+                }   
             </List>
           </div>
         </Grid>
