@@ -19,12 +19,15 @@ const useStyles = makeStyles((theme) => ({
   root: {
     flexGrow: 1,
     maxWidth: 752,
+    textAlign: "center",
   },
   demo: {
     backgroundColor: theme.palette.background.paper,
   },
   title: {
     margin: theme.spacing(4, 0, 2),
+    maxWidth:"70%",
+    textAlign:"center",
   },
 }));
 
@@ -61,7 +64,7 @@ export default function InteractiveList() {
           label="Enable secondary text"
         />
       </FormGroup> */}
-      <Typography variant="h6" className={classes.title}>
+      <Typography variant="h5" className={classes.title}>
             Skills 
           </Typography>
       <Grid container spacing={2}>

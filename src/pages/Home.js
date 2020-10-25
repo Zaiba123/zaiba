@@ -14,37 +14,24 @@ import AvatarImage from '../components/AvatarImage'
 export default function Home() {
     return (
         <Layout>
-            <div >
+            <div style={{textAlign:"center"}}>
             <Typography variant="h3" component="h2">
-                About me
+                Hi, nice to meet you, I'm Zaiba 
             </Typography>
-                <p>Hi my name is Zaiba, I am currently trying to explore different areas of technology and </p>
+                <p> ... </p>
                 <p>
                 <img src={Zaiba_Iqbal}  style={{ width:'15rem', borderRadius:'5px 20px 5px'}} />
                 
                 </p>
-                <a href="https://github.com/Zaiba123"> <GitHubIcon  /></a>
-                <a href="https://www.linkedin.com/in/zaiba-iqbal/"> <LinkedInIcon /></a>
+                <a href="https://github.com/Zaiba123"> <GitHubIcon  style={{ marginRight:'1rem'}} /></a>
+                <a href="https://www.linkedin.com/in/zaiba-iqbal/"> <LinkedInIcon style={{ marginRight:'1rem'}}/></a>
                 {/* <ListItem button key="Email" component="a" href= /> */}
                 <a href="mailto:zaibaiqbal1@gmail.com"> <EmailIcon /></a>
-                
+                <SkillList />
                 <div>
-                <iframe src="Zaiba_Iqbal_Resume.pdf" width = "60%" height = "500px" title="Resume"/>
+                <iframe src="Zaiba_Iqbal_Resume.pdf" width = "50%" height = "500px" title="Resume" style={{textAlign:"center"}}/>
                 </div>
                 <a href="Zaiba_Iqbal_Resume.pdf" download>Download Resume</a>
-                <p>
-                </p>
-                <p>Some of the things I know</p>
-                <SkillList />
-                <ul>
-                    <li>React.js</li>
-                    <li>C++</li>
-                    <li>HTML</li>
-                    <li>CSS</li>
-                    <li>Redux</li>
-                    <li>Javascript</li>
-                </ul>
-           
             </div>
         </Layout>
     )
