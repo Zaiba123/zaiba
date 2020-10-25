@@ -12,7 +12,10 @@
     width: 100vw;
     height: 100vh;
 }
-
+.MuiAvatar-img{
+    width: 200px;
+    height: 200px;
+}
 .garden{
     /* max-Width: 200; */
     display:grid;

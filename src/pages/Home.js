@@ -17,7 +17,10 @@ export default function Home() {
                 About me
             </Typography>
                 <p>Hi my name is Zaiba, I am currently trying to explore different areas of technology and </p>
-                <AvatarImage />
+                <p>
+                <img src={Zaiba_Iqbal}  style={{ width:'15rem', borderRadius:'5px 20px 5px'}} />
+                
+                </p>
                 <div>
                 <iframe src="Zaiba_Iqbal_Resume.pdf" width = "60%" height = "500px" title="Resume"/>
                 </div>
