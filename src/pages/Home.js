@@ -3,8 +3,11 @@ import React from 'react'
 import ImageGallery from '../components/ImageGallery'
 import Layout from '../components/Layout'
 import SkillList from '../components/SkillList'
+import Zaiba_Iqbal from '../images/Zaiba_Iqbal.jpg';
+
 // import eventurous from '../images/eventurous.png'
 import '../components/project.css'
+import AvatarImage from '../components/AvatarImage'
 
 export default function Home() {
     return (
@@ -14,12 +17,12 @@ export default function Home() {
                 About me
             </Typography>
                 <p>Hi my name is Zaiba, I am currently trying to explore different areas of technology and </p>
+                <AvatarImage />
                 <div>
-                <iframe src="Zaiba_Iqbal_Resume.pdf" width = "50%" height = "500px"/>
+                <iframe src="Zaiba_Iqbal_Resume.pdf" width = "60%" height = "500px" title="Resume"/>
                 </div>
                 <a href="Zaiba_Iqbal_Resume.pdf" download>Download Resume</a>
                 <p>
-                <ImageGallery />
                 </p>
                 <p>Some of the things I know</p>
                 <SkillList />

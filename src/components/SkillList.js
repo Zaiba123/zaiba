@@ -44,7 +44,7 @@ export default function InteractiveList() {
   const moreLanguages=["HTML","CSS","Redux","Git"]
   return (
     <div className={classes.root}>
-      <FormGroup row>
+      {/* <FormGroup row>
         <FormControlLabel
           control={
             <Checkbox checked={dense} onChange={(event) => setDense(event.target.checked)} />
@@ -60,7 +60,7 @@ export default function InteractiveList() {
           }
           label="Enable secondary text"
         />
-      </FormGroup>
+      </FormGroup> */}
       <Typography variant="h6" className={classes.title}>
             Skills 
           </Typography>
