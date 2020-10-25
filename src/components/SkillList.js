@@ -40,7 +40,8 @@ export default function InteractiveList() {
   const classes = useStyles();
   const [dense, setDense] = React.useState(false);
   const [secondary, setSecondary] = React.useState(false);
-
+  const languages = ["JavaScript","React.js","C++","Python"]
+  const moreLanguages=["HTML","CSS","Redux","Git"]
   return (
     <div className={classes.root}>
       <FormGroup row>
@@ -60,10 +61,11 @@ export default function InteractiveList() {
           label="Enable secondary text"
         />
       </FormGroup>
-        <Grid item xs={12} md={6}>
-          <Typography variant="h6" className={classes.title}>
+      <Typography variant="h6" className={classes.title}>
             Skills 
           </Typography>
+      <Grid container spacing={2}>
+        <Grid item xs={12} md={6}>
           <div className={classes.demo}>
             <List dense={dense}>
               {generate(
@@ -71,15 +73,39 @@ export default function InteractiveList() {
                   <ListItemIcon>
                     <WbSunnyIcon />
                   </ListItemIcon>
-                  <ListItemText
+                  {languages.map((lang) => {
+                      return (
+                          <ListItemText primary={lang} />
+                      )
+                  })}
+                  {/* <ListItemText
                     primary="Single-line item"
                     secondary={secondary ? 'Secondary text' : null}
-                  />
+                  /> */}
                 </ListItem>,
               )}
             </List>
           </div>
         </Grid>
+        <Grid item xs={12} md={6}>
+          <div className={classes.demo}>
+            <List dense={dense}>
+              {generate(
+                <ListItem>
+                  <ListItemIcon>
+                    <WbSunnyIcon />
+                  </ListItemIcon>
+                  {/* <ListItemText
+                    primary="Single-line item"
+                    secondary={secondary ? 'Secondary text' : null}
+                  /> */}
+                </ListItem>,
+              )}
+            </List>
+          </div>
+        </Grid>
+        </Grid>
+
     </div>
   );
 }
