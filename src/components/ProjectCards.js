@@ -10,8 +10,6 @@ import Typography from '@material-ui/core/Typography';
 import GitHubIcon from '@material-ui/icons/GitHub';
 
 import './project.css';
-import { Link } from 'react-router-dom';
-
 
 export const useStyles = makeStyles({
     cardStyle: {

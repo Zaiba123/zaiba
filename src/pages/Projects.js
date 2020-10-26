@@ -1,8 +1,5 @@
 import React from 'react'
 import Layout from '../components/Layout'
-// import {useStyles} from '../components/ProjectCards'
-import { makeStyles } from '@material-ui/core/styles';
-
 import ProjectCards from '../components/ProjectCards';
 import inChatNito from '../images/in-chat-nito.png';
 import eventurous from '../images/eventurous.png';
