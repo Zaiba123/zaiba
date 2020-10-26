@@ -12,7 +12,7 @@ export default function Layout({children}) {
 
         <AppBar position="static" className="neon">  
            <Toolbar className="tool-bg">
-                <Typography variant="h6" className="glow" className="navbar-text" >
+                <Typography variant="h6" className="navbar-text" >
                     Zaiba
          </Typography>
                 <Button color="inherit" component={Link} to={'/'} className="navbar-text">Work</Button>
