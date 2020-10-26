@@ -1,4 +1,4 @@
-import { GridList, GridListTile, ListItem, Typography } from '@material-ui/core'
+import { Button, GridList, GridListTile, ListItem, Typography } from '@material-ui/core'
 import React from 'react'
 import ImageGallery from '../components/ImageGallery'
 import Layout from '../components/Layout'
@@ -13,7 +13,7 @@ import '../components/project.css'
 export default function Home() {
     return (
         <Layout>
-            <div style={{textAlign:"center"}}>
+            <div className="bg-image-home" style={{textAlign:"center"}}>
             <Typography variant="h3" component="h2">
                 Hi, nice to meet you, I'm Zaiba
             </Typography>
@@ -31,8 +31,10 @@ export default function Home() {
                 </div>
                 <div>
                 <iframe src="Zaiba_Iqbal_Resume.pdf" width = "50%" height = "500px" title="Resume" style={{textAlign:"center"}}/>
+                <Button> <a href="Zaiba_Iqbal_Resume.pdf" download>Download Resume</a> </Button>
                 </div>
-                <a href="Zaiba_Iqbal_Resume.pdf" download>Download Resume</a>
+                
+                
             </div>
         </Layout>
     )

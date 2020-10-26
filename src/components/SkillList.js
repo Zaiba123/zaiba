@@ -20,6 +20,7 @@ const useStyles = makeStyles((theme) => ({
     flexGrow: 1,
     maxWidth: 752,
     textAlign: "center",
+    backgroundColor:"lightpink"
   },
   demo: {
     backgroundColor: theme.palette.background.paper,
