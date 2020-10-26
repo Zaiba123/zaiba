@@ -39,6 +39,7 @@ export default function Projects() {
 
     return (
         <Layout>
+            <div className="project-body">
             {/* <div class="logo"><b>Z<span>a</span>i<span>b</span>a</b> </div> */}
             {/* <div className={classes.root}> */}
             <div class="logo"><b>Pr<span>o</span>j<span>ec</span>ts</b> </div>
@@ -48,6 +49,7 @@ export default function Projects() {
             }
             </div>
             {/* </div> */}
+            </div>
         </Layout>
        
     )

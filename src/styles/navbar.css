@@ -1,7 +1,10 @@
 @import url(//fonts.googleapis.com/css?family=Vibur);
 html,body{
   height:100%;
-  background-color:#53438a;
+  
+}
+.project-body{
+    background-color:rgb(71 59 132);
 }
 /* body {
   background: #112 url(//images.weserv.nl/?url=i.imgur.com/6QJjYMe.jpg)  center no-repeat;
@@ -13,7 +16,8 @@ html,body{
   width: 45%;
   height: 65px;
   /* margin: auto; */
-  margin-left: 5%;
+  margin-left: 3%;
+  background-color: #4b3b7d;
   /* position: absolute; */
   /* top: 0;
   left: 0;
@@ -23,7 +27,7 @@ html,body{
 }
 
 .logo b{
-  font: 100 8vh "Vibur";
+  font: 100 9vh "Vibur";
   color: #fee;
   text-shadow: 0 -40px 100px, 0 0 2px, 0 0 1em #ff4444, 0 0 0.5em #ff4444, 0 0 0.1em #ff4444, 0 10px 3px #000;
 }
@@ -91,3 +95,19 @@ follow me @nodws
   box-shadow:0 0 0px 3px rgba(0,0,0,0.2);
   opacity:0.4
 }#btn-twtr:hover{color:#fff;opacity:1} */
+
+.neon {
+    color: #fff;
+    text-shadow:
+      0 0 5px #fff,
+      0 0 10px #fff,
+      0 0 20px #fff,
+      0 0 40px #0ff,
+      0 0 80px #0ff,
+      0 0 90px #0ff,
+      0 0 100px #0ff,
+      0 0 150px #0ff;
+      font-weight: 400;
+  text-align: center;
+  text-transform: uppercase;
+  }
