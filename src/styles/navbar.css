@@ -4,8 +4,7 @@ html,body{
   
 }
 .project-body{
-    background-color:rgb(71 59 132);
-}
+    background:linear-gradient(90deg, rgb(87 63 134) 55%, rgb(72 60 133) 61%, rgb(78 69 145) 71%, rgb(72 60 133) 78%, rgb(60 50 119) 100%);}
 /* body {
   background: #112 url(//images.weserv.nl/?url=i.imgur.com/6QJjYMe.jpg)  center no-repeat;
   background-size:cover;
@@ -17,7 +16,6 @@ html,body{
   height: 65px;
   /* margin: auto; */
   margin-left: 3%;
-  background-color: #4b3b7d;
   /* position: absolute; */
   /* top: 0;
   left: 0;
@@ -110,4 +108,8 @@ follow me @nodws
       font-weight: 400;
   text-align: center;
   text-transform: uppercase;
+ 
   }
+  .tool-bg{
+    background: rgb(153,7,156);
+    background:linear-gradient(90deg, rgb(196 123 180) 55%, rgb(175 109 177) 61%, rgb(149 105 179) 71%, rgb(185 136 201) 78%, rgb(160 120 188) 100%);  }

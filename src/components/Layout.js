@@ -11,7 +11,7 @@ export default function Layout({children}) {
         <div>
 
         <AppBar position="static" className="neon">  
-           <Toolbar>
+           <Toolbar className="tool-bg">
                 <Typography variant="h6" className="glow" >
                     Zaiba
          {/* <div class="logo"><b>Z<span>a</span>i<span>b</span>a</b> </div> */}
