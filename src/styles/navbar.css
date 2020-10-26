@@ -24,11 +24,19 @@ html,body{
    user-select: none;
 }
 
+
 .logo b{
-  font: 100 10vh "Vibur";
+  font: 400 10vh "Vibur";
   color: #fee;
-  text-shadow: 0 -40px 100px, 0 0 2px, 0 0 1em #ff4444, 0 0 0.5em #ff4444, 0 0 0.1em #ff4444, 0 10px 3px #000;
+  text-shadow: 0 -40px 100px, 0 0 2px, 0 0 1em #ff4444, 0 0 0.5em #ff4444, 0 0 0.1em #ff4444, 0 10px 3px #000
+ 
 }
+@media only screen and (max-width: 1282px) {
+    .logo b{
+        font-size: 6rem;
+        font: 400 5vh "Vibur";
+    }
+  }
 .logo b span{
   animation: blink linear infinite 2s;
 }

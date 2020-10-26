@@ -9,14 +9,13 @@ import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import EmailIcon from '@material-ui/icons/Email';
 // import eventurous from '../images/eventurous.png'
 import '../components/project.css'
-import AvatarImage from '../components/AvatarImage'
 
 export default function Home() {
     return (
         <Layout>
             <div style={{textAlign:"center"}}>
             <Typography variant="h3" component="h2">
-                Hi, nice to meet you, I'm Zaiba 
+                Hi, nice to meet you, I'm Zaiba
             </Typography>
                 <p> ... </p>
                 <p>
