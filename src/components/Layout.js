@@ -4,6 +4,7 @@ import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
 import Typography from '@material-ui/core/Typography';
 import Button from '@material-ui/core/Button';
+import '../styles/navbar.css'
 
 export default function Layout({children}) {
     return (
@@ -11,9 +12,9 @@ export default function Layout({children}) {
 
         <AppBar position="static" className="navBar">  
            <Toolbar>
-                <Typography variant="h6" >
-                Zaiba 
-                </Typography>
+                <Typography variant="h6" className="glow" >
+         {/* <div class="logo"><b>Z<span>a</span>i<span>b</span>a</b> </div> */}
+         </Typography>
                 <Button color="inherit" component={Link} to={'/'}>Work</Button>
                 <Button color="inherit" component={Link} to={'/project'}>Projects</Button>
                 <Button color="inherit" component={Link} to={'/goals'}>Goals</Button>

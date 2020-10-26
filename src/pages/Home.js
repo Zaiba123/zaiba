@@ -27,7 +27,9 @@ export default function Home() {
                 <a href="https://www.linkedin.com/in/zaiba-iqbal/"> <LinkedInIcon style={{ marginRight:'1rem'}}/></a>
                 {/* <ListItem button key="Email" component="a" href= /> */}
                 <a href="mailto:zaibaiqbal1@gmail.com"> <EmailIcon /></a>
+                <div style={{textAlign:"center"}}>
                 <SkillList />
+                </div>
                 <div>
                 <iframe src="Zaiba_Iqbal_Resume.pdf" width = "50%" height = "500px" title="Resume" style={{textAlign:"center"}}/>
                 </div>

@@ -20,6 +20,8 @@ export const useStyles = makeStyles({
 export default function ProjectCards({name,description,picture,classTitle,imageTitle}) {
     const classes = useStyles();
     return (
+        <div>
+         {/* <div class="logo"><b>Z<span>a</span>i<span>b</span>a</b> </div> */}
             <div className="garden" >
             <Card className={classTitle}>
                 <CardActionArea className="actionArea">
@@ -47,6 +49,7 @@ export default function ProjectCards({name,description,picture,classTitle,imageT
                     </Button>
                 </CardActions>
                 </Card>
+            </div>
             </div>
     )
 }

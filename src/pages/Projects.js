@@ -7,7 +7,7 @@ import ProjectCards from '../components/ProjectCards';
 import inChatNito from '../images/in-chat-nito.png';
 import eventurous from '../images/eventurous.png';
 import noYouChoose from '../images/noYouChoose.png';
-
+import '../styles/navbar.css'
 
 export default function Projects() {
     const project =
@@ -39,7 +39,9 @@ export default function Projects() {
 
     return (
         <Layout>
+            {/* <div class="logo"><b>Z<span>a</span>i<span>b</span>a</b> </div> */}
             {/* <div className={classes.root}> */}
+            <div class="logo"><b>Pr<span>o</span>j<span>ec</span>ts</b> </div>
             <div className="bg-image-project">
             {
                 project.map(item => <ProjectCards name={item.name} description={item.description} picture={item.img} classTitle={item.classTitle} imageTitle={item.imageTitle}/>)
@@ -47,5 +49,6 @@ export default function Projects() {
             </div>
             {/* </div> */}
         </Layout>
+       
     )
 }
