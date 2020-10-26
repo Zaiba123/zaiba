@@ -22,7 +22,6 @@ const useStyles = makeStyles((theme) => ({
     margin: theme.spacing(4, 0, 2),
     // maxWidth:"70%",
     textAlign:"center",
-    margin: "auto",
   },
 }));
 

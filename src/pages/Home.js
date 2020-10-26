@@ -17,7 +17,7 @@ export default function Home() {
             </Typography>
                 <p> ... </p>
                 <p>
-                <img alt="Profile Picture" src={Zaiba_Iqbal}  style={{ width:'15rem', borderRadius:'5px 20px 5px'}} />
+                <img alt="Profile" src={Zaiba_Iqbal}  style={{ width:'15rem', borderRadius:'5px 20px 5px'}} />
                 </p>
                 <a href="https://github.com/Zaiba123"> <GitHubIcon  style={{ marginRight:'1rem'}} /></a>
                 <a href="https://www.linkedin.com/in/zaiba-iqbal/"> <LinkedInIcon style={{ marginRight:'1rem'}}/></a>

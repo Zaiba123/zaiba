@@ -1,5 +1,4 @@
 import React from 'react'
-import { makeStyles } from '@material-ui/core/styles';
 import Card from '@material-ui/core/Card';
 import CardActionArea from '@material-ui/core/CardActionArea';
 import CardActions from '@material-ui/core/CardActions';
@@ -11,15 +10,8 @@ import GitHubIcon from '@material-ui/icons/GitHub';
 
 import './project.css';
 
-export const useStyles = makeStyles({
-    cardStyle: {
-      maxWidth: "300px",
-    },
-    
-  });
 
 export default function ProjectCards({name,description,picture,classTitle,imageTitle,linkToProject}) {
-    const classes = useStyles();
 
     return (
         <div>
