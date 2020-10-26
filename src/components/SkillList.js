@@ -23,11 +23,13 @@ const useStyles = makeStyles((theme) => ({
   },
   demo: {
     backgroundColor: theme.palette.background.paper,
+    margin:"auto",
   },
   title: {
     margin: theme.spacing(4, 0, 2),
-    maxWidth:"70%",
+    // maxWidth:"70%",
     textAlign:"center",
+    margin: "auto",
   },
 }));
 
@@ -78,14 +80,9 @@ export default function InteractiveList() {
                         <ListItemIcon>
                           <WbSunnyIcon />
                         </ListItemIcon>
-                        {/* {languages.map((lang) => {
-                            return (
-                                <ListItemText primary={lang} />
-                            )
-                        })} */}
                         <ListItemText
                           primary={lan}
-                          secondary={secondary ? 'Secondary text' : null}
+                          // secondary={secondary ? 'Secondary text' : null}
                         />
                       </ListItem>
                       )

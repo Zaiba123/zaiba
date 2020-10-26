@@ -12,13 +12,12 @@ export default function Layout({children}) {
 
         <AppBar position="static" className="neon">  
            <Toolbar className="tool-bg">
-                <Typography variant="h6" className="glow" >
+                <Typography variant="h6" className="glow" className="navbar-text" >
                     Zaiba
-         {/* <div class="logo"><b>Z<span>a</span>i<span>b</span>a</b> </div> */}
          </Typography>
-                <Button color="inherit" component={Link} to={'/'}>Work</Button>
-                <Button color="inherit" component={Link} to={'/project'}>Projects</Button>
-                <Button color="inherit" component={Link} to={'/goals'}>Goals</Button>
+                <Button color="inherit" component={Link} to={'/'} className="navbar-text">Work</Button>
+                <Button color="inherit" component={Link} to={'/project'} className="navbar-text">Projects</Button>
+                <Button color="inherit" component={Link} to={'/goals'} className="navbar-text">Goals</Button>
             </Toolbar>
         </AppBar>
         <div className="page-wrapper">{children}</div>

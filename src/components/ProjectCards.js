@@ -7,7 +7,10 @@ import CardContent from '@material-ui/core/CardContent';
 import CardMedia from '@material-ui/core/CardMedia';
 import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
+import GitHubIcon from '@material-ui/icons/GitHub';
+
 import './project.css';
+import { Link } from 'react-router-dom';
 
 
 export const useStyles = makeStyles({
@@ -17,8 +20,9 @@ export const useStyles = makeStyles({
     
   });
 
-export default function ProjectCards({name,description,picture,classTitle,imageTitle}) {
+export default function ProjectCards({name,description,picture,classTitle,imageTitle,linkToProject}) {
     const classes = useStyles();
+
     return (
         <div>
          {/* <div class="logo"><b>Z<span>a</span>i<span>b</span>a</b> </div> */}
@@ -44,8 +48,9 @@ export default function ProjectCards({name,description,picture,classTitle,imageT
                     </CardContent>
                 </CardActionArea>
                 <CardActions>
-                    <Button size="small" color="primary">
-                    Learn More
+                    <Button size="small" color="primary" style={{ textTransform:'none'}}>
+                    <a href={linkToProject} > <GitHubIcon /></a>
+                        Click to view code
                     </Button>
                 </CardActions>
                 </Card>

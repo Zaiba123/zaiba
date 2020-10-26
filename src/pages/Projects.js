@@ -17,7 +17,8 @@ export default function Projects() {
                 description:"Application allows students who are shy to ask the teacher questions in real-time.",
                 img: inChatNito,
                 classTitle: 'a',
-                imageTitle:"In-chat-nito"
+                imageTitle:"In-chat-nito",
+                linkToProject:"https://github.com/Zaiba123/in-chat-nito",
 
             },
             {
@@ -25,7 +26,8 @@ export default function Projects() {
                 description:  "Application that puts all your basic traveling needs such as currency exchange, places to visit, events happening right now and the weather forecast into one app.",
                 img: eventurous,
                 classTitle: "b",
-                imageTitle:"Eventurous"
+                imageTitle:"Eventurous",
+                linkToProject:"https://github.com/Zaiba123/travel_buddy",
 
             },
             {
@@ -33,7 +35,8 @@ export default function Projects() {
                 description:"Application takes a user's current location and gives a randomized restaurant for user to try. This encourages being adventurous and trying new places to eat.",
                 img:noYouChoose,
                 classTitle: "c",
-                imageTitle:"no-You-choose"
+                imageTitle:"no-You-choose",
+                linkToProject:"https://github.com/Zaiba123/no_YOU_choose",
             },
         ]
 
@@ -45,7 +48,7 @@ export default function Projects() {
             <div class="logo"><b>Pr<span>o</span>j<span>ec</span>ts</b> </div>
             <div className="bg-image-project">
             {
-                project.map(item => <ProjectCards name={item.name} description={item.description} picture={item.img} classTitle={item.classTitle} imageTitle={item.imageTitle}/>)
+                project.map(item => <ProjectCards name={item.name} description={item.description} picture={item.img} classTitle={item.classTitle} imageTitle={item.imageTitle} linkToProject={item.linkToProject}/>)
             }
             </div>
             {/* </div> */}

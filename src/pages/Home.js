@@ -27,7 +27,7 @@ export default function Home() {
                 <a href="https://www.linkedin.com/in/zaiba-iqbal/"> <LinkedInIcon style={{ marginRight:'1rem'}}/></a>
                 {/* <ListItem button key="Email" component="a" href= /> */}
                 <a href="mailto:zaibaiqbal1@gmail.com"> <EmailIcon /></a>
-                <div style={{textAlign:"center"}}>
+                <div style={{marginLeft:"20px"}}>
                 <SkillList />
                 </div>
                 <div>
