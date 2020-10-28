@@ -1,18 +1,16 @@
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
-import List from '@material-ui/core/List';
-import ListItem from '@material-ui/core/ListItem';
-import ListItemIcon from '@material-ui/core/ListItemIcon';
 import ListItemText from '@material-ui/core/ListItemText';
 import Typography from '@material-ui/core/Typography';
 import WbSunnyIcon from '@material-ui/icons/WbSunny';
 const useStyles = makeStyles((theme) => ({
-  // root: {
-  //   flexGrow: 1,
-  //   maxWidth: 752,
-  //   textAlign: "center",
-  //   backgroundColor:"lightpink"
-  // },
+  root: {
+    // flexGrow: 1,
+    // maxWidth: 752,
+    // textAlign: "center",
+    // backgroundColor:"lightpink"
+    // display:"flex",
+  },
   // demo: {
   //   backgroundColor: theme.palette.background.paper,
   //   margin:"auto",
@@ -21,11 +19,21 @@ const useStyles = makeStyles((theme) => ({
     margin: theme.spacing(4, 0, 2),
     // maxWidth:"70%",
     textAlign:"center",
+ 
   },
-  skillItems: {
-    display: "flex",
-    flexDirection:"column",
-    flex: 3,
+  skillList: {
+    display: "grid",
+    // flexDirection:'row',
+    gridTemplateColumns:"1fr 1fr 1fr",
+    // flexWrap: "wrap",
+  },
+  skillName: {
+    // display: "flex",
+    marginLeft:"20px",
+    marginRight:"20px",
+    margin: "10px",
+    textAlign: "center",
+    fontSize: "30px",
   }
 
 }));
@@ -39,24 +47,20 @@ export default function InteractiveList() {
       <Typography variant="h5" className={classes.title}>
             Skills 
           </Typography>
-          <div >
-            <List className={classes.skillItems}>
+            <div classes={classes.skillList}>
                 {
                   languages.map(lan => {
                       return (
-                        <ListItem>
-                        <ListItemIcon>
+                        <div classes={classes.skillName}>
                           <WbSunnyIcon />
-                        </ListItemIcon>
-                        <ListItemText
+                        <ListItemText 
                           primary={lan}
                         />
-                      </ListItem>
+                      </div>
                       )
                   })
                 }
-            </List>
-          </div>
+            </div>
 
     </div>
   );
