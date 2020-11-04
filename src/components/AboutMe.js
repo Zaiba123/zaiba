@@ -25,7 +25,7 @@ const AboutMe = () => {
                 name: "Sunflower",
                 description:"Application takes a user's current location and gives a randomized restaurant for user to try. This encourages being adventurous and trying new places to eat.",
                 img:sunflower,
-                imageTitle:"sunflower",
+                imageTitle:"Sunflower",
             },
         ]
 
