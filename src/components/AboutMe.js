@@ -16,7 +16,7 @@ const AboutMe = () => {
             },
             {
                 name: "Crochet",
-                description:  "Application that puts all your basic traveling needs such as currency exchange, places to visit, events happening right now and the weather forecast into one app.",
+                description:  "Crochet stuffed animals, hats, scarfs, etc..",
                 img: crochet,
                 imageTitle:"Crochet",
 
