@@ -10,7 +10,7 @@ const AboutMe = () => {
         [
             {
                 name:"Rubik Cubes",
-                description:"Application allows students who are shy to ask the teacher questions in real-time.",
+                description:"N/A",
                 img: RubikCube,
                 imageTitle:"Rubik Cubes",
             },
@@ -23,7 +23,7 @@ const AboutMe = () => {
             },
             {
                 name: "Sunflower",
-                description:"Application takes a user's current location and gives a randomized restaurant for user to try. This encourages being adventurous and trying new places to eat.",
+                description:"N/A",
                 img:sunflower,
                 imageTitle:"Sunflower",
             },
