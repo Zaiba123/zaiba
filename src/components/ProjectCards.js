@@ -15,7 +15,6 @@ export default function ProjectCards({name,description,picture,classTitle,imageT
 
     return (
         <div>
-         {/* <div class="logo"><b>Z<span>a</span>i<span>b</span>a</b> </div> */}
             <div className="garden" >
             <Card className={classTitle}>
                 <CardActionArea className="actionArea">
