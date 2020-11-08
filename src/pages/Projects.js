@@ -46,7 +46,6 @@ export default function Projects() {
                 project.map(item => <ProjectCards name={item.name} description={item.description} picture={item.img} classTitle={item.classTitle} imageTitle={item.imageTitle} linkToProject={item.linkToProject}/>)
             }
             </div>
-            {/* </div> */}
             </div>
         </Layout>
        
