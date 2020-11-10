@@ -11,10 +11,7 @@ const useStyles = makeStyles((theme) => ({
     // backgroundColor:"lightpink"
     // display:"flex",
   },
-  // demo: {
-  //   backgroundColor: theme.palette.background.paper,
-  //   margin:"auto",
-  // },
+
   title: {
     margin: theme.spacing(4, 0, 2),
     // maxWidth:"70%",
