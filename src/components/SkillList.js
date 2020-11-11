@@ -4,14 +4,6 @@ import ListItemText from '@material-ui/core/ListItemText';
 import Typography from '@material-ui/core/Typography';
 import WbSunnyIcon from '@material-ui/icons/WbSunny';
 const useStyles = makeStyles((theme) => ({
-  root: {
-    // flexGrow: 1,
-    // maxWidth: 752,
-    // textAlign: "center",
-    // backgroundColor:"lightpink"
-    // display:"flex",
-  },
-
   title: {
     margin: theme.spacing(4, 0, 2),
     // maxWidth:"70%",
