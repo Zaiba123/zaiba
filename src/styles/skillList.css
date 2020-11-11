@@ -1,0 +1,14 @@
+.f-box{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 56rem;
+    margin: auto;
+}
+
+.flex-container{
+    padding: 1rem;
+    width: 12rem;
+    margin: 1rem;
+    background-color: lightcoral;
+}
