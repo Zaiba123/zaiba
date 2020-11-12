@@ -1,5 +1,4 @@
 import React from 'react'
-import Layout from '../components/Layout'
 import ProjectCards from '../components/ProjectCards';
 import inChatNito from '../images/in-chat-nito.png';
 import eventurous from '../images/eventurous.png';
@@ -38,7 +37,6 @@ export default function Projects() {
         ]
 
     return (
-        <Layout>
             <div className="project-body">
             <div class="logo"><b>Pr<span>o</span>j<span>ec</span>ts</b> </div>
             <div className="bg-image-project">
@@ -47,7 +45,7 @@ export default function Projects() {
             }
             </div>
             </div>
-        </Layout>
+
        
     )
 }
