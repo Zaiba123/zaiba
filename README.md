@@ -1,7 +1,7 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/62d4b165-7ebe-4ce2-a20f-58e2bb923572/deploy-status)](https://app.netlify.com/sites/infallible-lamport-0ec4f5/deploys)
-
+https://zaiba.netlify.app/
 ## Available Scripts
 
 In the project directory, you can run:
