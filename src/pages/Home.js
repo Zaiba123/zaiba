@@ -28,9 +28,9 @@ export default function Home() {
                 <Button>  <a href="Zaiba_Iqbal_Resume.pdf" download><GetAppIcon  /></a> </Button>
 
                 <SkillList />
-                <div>
+                {/* <div>
                 <iframe src="Zaiba_Iqbal_Resume.pdf" width = "50%" height = "500px" title="Resume" style={{textAlign:"center"}}/>
-                </div>
+                </div> */}
                 <Projects />
                 <Goals />
                 
