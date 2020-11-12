@@ -10,20 +10,17 @@ const AboutMe = () => {
         [
             {
                 name:"Rubik Cubes",
-                description:"N/A",
                 img: RubikCube,
                 imageTitle:"Rubik Cubes",
             },
             {
                 name: "Crochet",
-                description:  "Crochet stuffed animals, hats, scarfs, etc..",
                 img: crochet,
                 imageTitle:"Crochet",
 
             },
             {
                 name: "Sunflower",
-                description:"N/A",
                 img:sunflower,
                 imageTitle:"Sunflower",
             },
