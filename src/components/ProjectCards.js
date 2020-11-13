@@ -39,7 +39,6 @@ export default function ProjectCards({name,description,picture,classTitle,imageT
                 <CardActions>
                     <Button size="small" color="primary" style={{ textTransform:'none'}}>
                     <a href={linkToProject} > <GitHubIcon /> Click to view code</a>
-                        
                     </Button>
                 </CardActions>
                 </Card>
