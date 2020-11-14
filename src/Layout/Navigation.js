@@ -10,9 +10,9 @@ const Navigation =()=> {
         <ul>
           <li>
           <Link
-            className='link'
+            className='navlink'
             activeClass='active'
-            to='home'
+            to='homepage'
             spy={true}
             smooth={true}
             offset={-70}
@@ -21,9 +21,9 @@ const Navigation =()=> {
         </li>
         <li>
           <Link
-            className='link'
+            className='navlink'
             activeClass='active'
-            to='projects'
+            to='project-body'
             spy={true}
             smooth={true}
             offset={-70}
@@ -32,7 +32,7 @@ const Navigation =()=> {
         </li>
         <li>
           <Link
-            className='link'
+            className='navlink'
             activeClass='active'
             to='aboutme'
             spy={true}

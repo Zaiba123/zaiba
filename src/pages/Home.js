@@ -13,7 +13,7 @@ import Goals from './Goals';
 
 export default function Home() {
     return (
-        <Layout>
+        <div className="homepage">
             <div className="bg-image-home" style={{textAlign:"center"}}>
             <Typography variant="h3" component="h2">
                 Hi, nice to meet you, I'm Zaiba
@@ -34,6 +34,6 @@ export default function Home() {
                 <Projects />
                 <Goals />
             </div>
-        </Layout>
+        </div>
     )
 }
