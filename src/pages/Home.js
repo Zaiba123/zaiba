@@ -16,7 +16,7 @@ export default function Home() {
         <div className="homepage">
             <div className="bg-image-home" style={{textAlign:"center"}}>
             <Typography variant="h3" component="h2">
-                Hi, nice to meet you, I'm Zaiba
+                Hi, nice to meet you, I'm Zaiba, welcome to my page
             </Typography>
                 <p>
                 <img alt="Profile" src={Zaiba_Iqbal}  style={{ width:'15rem', borderRadius:'5px 20px 5px'}} />
