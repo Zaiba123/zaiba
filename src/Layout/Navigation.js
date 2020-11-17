@@ -34,7 +34,6 @@ const Navigation =()=> {
             offset={-70}
             duration={500}>
           <span role="img" aria-label="aboutme"><EmojiPeopleIcon /></span></Link>
-        </li>
         </nav>
     )
 }
