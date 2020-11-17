@@ -7,8 +7,6 @@ import EmojiPeopleIcon from '@material-ui/icons/EmojiPeople';
 const Navigation =()=> {
     return (
         <nav>
-        <ul>
-          <li>
           <Link
             className='navlink'
             activeClass='active'
@@ -18,8 +16,6 @@ const Navigation =()=> {
             offset={-70}
             duration={500}>
           <span role="img" aria-label="home"><HomeIcon /> </span></Link>
-        </li>
-        <li>
           <Link
             className='navlink'
             activeClass='active'
@@ -29,8 +25,6 @@ const Navigation =()=> {
             offset={-70}
             duration={500}>
           <span role="img" aria-label="projects"><ComputerIcon /></span></Link>
-        </li>
-        <li>
           <Link
             className='navlink'
             activeClass='active'
@@ -41,7 +35,6 @@ const Navigation =()=> {
             duration={500}>
           <span role="img" aria-label="aboutme"><EmojiPeopleIcon /></span></Link>
         </li>
-      </ul>
         </nav>
     )
 }
