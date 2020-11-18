@@ -1,6 +1,5 @@
 import { Typography } from '@material-ui/core'
 import React from 'react'
-import Layout from '../components/Layout'
 import SkillList from '../components/SkillList'
 import Zaiba_Iqbal from '../images/Zaiba_Iqbal.jpg';
 import GitHubIcon from '@material-ui/icons/GitHub';

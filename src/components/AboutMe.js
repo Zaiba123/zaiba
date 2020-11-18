@@ -2,7 +2,6 @@ import React from 'react'
 import RubikCube from '../images/RubikCube.jpeg'
 import crochet from '../images/crochet.jpeg'
 import sunflower from '../images/sunflower.jpeg'
-import ProjectCards from './ProjectCards'
 
 
 const AboutMe = () => {
