@@ -28,7 +28,7 @@ const AboutMe = () => {
     return (
         <div>
             {
-                aboutMe.map(item => <img src={item.img} alt={item.imageTitle} width="300" height="300"/>
+                aboutMe.map(item => <div><img src={item.img} alt={item.imageTitle} width="300" height="300"/></div>
                 )
             }
         </div>

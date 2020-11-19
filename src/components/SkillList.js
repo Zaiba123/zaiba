@@ -6,7 +6,7 @@ import '../styles/skillList.css'
 
 
 export default function InteractiveList() {
-  const languages = ["JavaScript","React.js","C++","Python","SQL","HTML","CSS","Redux","Git","SCSS"]
+  const languages = ["JavaScript","React.js","C++","Python","SQL","HTML","CSS","Redux","Git","SCSS","Node.js"]
   return (
     <div >
       <Typography variant="h5" >
