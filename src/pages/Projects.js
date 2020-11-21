@@ -38,7 +38,7 @@ export default function Projects() {
 
     return (
             <div className="project-body">
-            <div class="logo"><b>Pr<span>o</span>j<span>ec</span>ts</b> </div>
+            <div class="logo"><b>W<span>o</span>r<span>k</span><span>+</span></b> <b>Pr<span>o</span>j<span>ec</span>ts</b> </div>
             <div className="bg-image-project">
             {
                 project.map(item => <ProjectCards name={item.name} description={item.description} picture={item.img} classTitle={item.classTitle} imageTitle={item.imageTitle} linkToProject={item.linkToProject}/>)
