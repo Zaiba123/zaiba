@@ -1,4 +1,4 @@
-import { Typography } from '@material-ui/core'
+// import { Typography } from '@material-ui/core'
 import React from 'react'
 import SkillList from '../components/SkillList'
 import Zaiba_Iqbal from '../images/Zaiba_Iqbal.jpg';
@@ -14,9 +14,9 @@ export default function Home() {
     return (
         <div className="homepage">
             <div className="bg-image-home" style={{textAlign:"center"}}>
-            <Typography variant="h3" component="h2">
+            {/* <Typography variant="h3" component="h2">
                 Hi, nice to meet you, I'm Zaiba, welcome to my page
-            </Typography>
+            </Typography> */}
                 <p>
                 <img alt="Profile" src={Zaiba_Iqbal}  style={{ width:'15rem', borderRadius:'5px 20px 5px'}} />
                 </p>
