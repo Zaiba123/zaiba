@@ -26,12 +26,12 @@ export default function Home() {
                     <a href="mailto:zaibaiqbal1@gmail.com"> <EmailIcon style={{ color:'purple'}}/></a>
                     <a href="Zaiba_Iqbal_Resume.pdf" download title="Resume"><GetAppIcon  style={{ color:'purple'}}/></a> 
                 </div>
-                <SkillList />
                 {/* <div>
                 <iframe src="Zaiba_Iqbal_Resume.pdf" width = "50%" height = "500px" title="Resume" style={{textAlign:"center"}}/>
                 </div> */}
                 <Projects />
                 <Goals />
+                <SkillList />
             </div>
         </div>
     )
