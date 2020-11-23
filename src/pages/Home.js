@@ -3,7 +3,6 @@ import React from 'react'
 import SkillList from '../components/SkillList'
 import Zaiba_Iqbal from '../images/Zaiba_Iqbal.jpg';
 import sunflower from '../images/sunflower.jpeg';
-import Landing_Page from '../images/doSomethingGreat.jpeg';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import EmailIcon from '@material-ui/icons/Email';
