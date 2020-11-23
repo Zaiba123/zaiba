@@ -29,8 +29,9 @@
     top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 50px;
+    font: 400 6vh "Thasadith";
   }
+ 
   .logo-header {
     text-align: center;
     width: 65%;
@@ -39,6 +40,11 @@
     transform: translate(-50%, -50%);
      user-select: none;
   }
+  @media only screen and (max-width: 595) {
+    .logo-header-1 b{
+    font: 400 6vh "Thasadith";
+    }
+}
   .logo-header-1 b{
     font: 400 14vh "Thasadith";
     color: white;

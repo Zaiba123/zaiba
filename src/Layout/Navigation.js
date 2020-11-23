@@ -8,7 +8,7 @@ import '../styles/navigation.css';
 
 const Navigation =()=> {
     return (
-        <nav className="sticky">
+        <nav className="sticky1">
           <Link
             className='navlink'
             activeClass='active'
@@ -17,7 +17,7 @@ const Navigation =()=> {
             smooth={true}
             offset={-70}
             duration={500}>
-          <span role="img" aria-label="home"><HomeIcon /> </span></Link>
+          <span role="img" aria-label="home"><HomeIcon fontSize="large"/> </span></Link>
           <Link
             className='navlink'
             activeClass='active'
@@ -26,7 +26,7 @@ const Navigation =()=> {
             smooth={true}
             offset={-70}
             duration={500}>
-          <span role="img" aria-label="projects"><ComputerIcon /></span></Link>
+          <span role="img" aria-label="projects"><ComputerIcon fontSize="large" /></span></Link>
           <Link
             className='navlink'
             activeClass='active'
@@ -35,7 +35,7 @@ const Navigation =()=> {
             smooth={true}
             offset={-70}
             duration={500}>
-          <span role="img" aria-label="aboutme"><EmojiPeopleIcon /></span></Link>
+          <span role="img" aria-label="aboutme"><EmojiPeopleIcon fontSize="large"/></span></Link>
         </nav>
     )
 }

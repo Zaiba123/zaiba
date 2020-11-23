@@ -1,7 +1,20 @@
-.sticky {
-  position: fixed;
-  top: 0;
-  width: 100%;
-  background-color:white ;
-  width: min-content;
-}
+.sticky1 {
+    margin-top: 28%;
+    position: fixed;
+    top: 0;
+    margin-left: 1rem;
+    width: 100%;
+    background-color:white ;
+    width: min-content;
+  }
+  .sticky2 {
+    margin-top: 26%;
+    right:0;
+    position: fixed;
+    top: 0;
+    margin-right: 1rem;
+    margin-left: 1rem;
+    width: 100%;
+    background-color:white ;
+    width: min-content;
+  }
