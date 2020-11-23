@@ -1,9 +1,4 @@
-.bg-image-project{
-    background-image: url("https://images.unsplash.com/photo-1523380360198-653413ad178b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80");
-    background-size: cover;
-    width: 100vw;
-    height: 100%;
-}
+
 /* .bg-image-home{
     background: linear-gradient(90deg, rgb(196 157 196 / 38%) 8%, rgb(222 135 205 / 45%) 35%, rgb(227 135 199 / 39%) 56%, rgb(245 0 87 / 22%) 85%);    /* background-repeat: no-repeat; */
 
@@ -27,21 +22,21 @@
     text-align: center;
 }
 .a{
-    border: solid #c585c5 2px;
+    /* border: solid #c585c5 2px; */
     grid-area: a;
 }
 .b{
-    background-color:pink;
-    border: solid#b19cd9 2px;
+    /* background-color:pink; */
+    /* border: solid#b19cd9 2px; */
     grid-area: b;
     object-fit: contain;
 }
 .c{
-    border: solid #b19cd9  2px;
+    /* border: solid #b19cd9  2px; */
     grid-area: c;
 
 }
-.MuiAppBar-colorPrimary.navBar{
+/* .MuiAppBar-colorPrimary.navBar{
     background-color:#b19cd9;
     border: solid #aa3caa 2px;
-}
+} */
