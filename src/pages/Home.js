@@ -18,8 +18,8 @@ export default function Home() {
             <div className="bg-image-home" style={{textAlign:"center"}}>
                 <div className="container">
                     <img alt="landing" src={Landing_Page } className="landing-page"  />
-                    <div class="centered">Zaiba Iqbal | Front-End Engineer</div>
-                    {/* <div class="centered2"></div> */}
+                    <div class="logo-header centered"><b>Za<span>i</span>ba  <span>Iq</span>ba<span>l  </span>| Front-End Engineer</b></div>
+                    {/* <div class="centered">Zaiba Iqbal | Front-End Engineer</div> */}
                 </div>
 
             {/* <Typography variant="h3" component="h2">
