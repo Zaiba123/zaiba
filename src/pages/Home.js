@@ -2,6 +2,7 @@
 import React from 'react'
 import SkillList from '../components/SkillList'
 import Zaiba_Iqbal from '../images/Zaiba_Iqbal.jpg';
+import sunflower from '../images/sunflower.jpeg';
 import Landing_Page from '../images/doSomethingGreat.jpeg';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
@@ -17,8 +18,8 @@ export default function Home() {
         <div className="homepage">
             <div className="bg-image-home" style={{textAlign:"center"}}>
                 <div className="container">
-                    hi
                     {/* <img alt="landing" src={Landing_Page } className="landing-page"  /> */}
+                    <img alt="stars" src={sunflower } className="landing-page"  />
                     {/* <div className="landing-page"></div> */}
                     <div class="logo-header-1 centered1"><b>Do Something Great </b></div>
                     <div class="logo-header centered"><b>Za<span>i</span>ba  <span>Iq</span>ba<span>l  </span>| Front-End Engineer </b></div>

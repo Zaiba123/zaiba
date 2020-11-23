@@ -11,9 +11,9 @@
 
 .landing-page {
     height: 35em;
-    width: 20rem;
-    margin-left: 3rem;
-    margin-right: 3rem;
+    width: 100%;
+    border-radius: 14px;
+    object-fit: cover;
    color: black;
 }
 .centered{
