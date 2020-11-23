@@ -17,8 +17,11 @@ export default function Home() {
         <div className="homepage">
             <div className="bg-image-home" style={{textAlign:"center"}}>
                 <div className="container">
-                    <img alt="landing" src={Landing_Page } className="landing-page"  />
-                    <div class="logo-header centered"><b>Za<span>i</span>ba  <span>Iq</span>ba<span>l  </span>| Front-End Engineer</b></div>
+                    hi
+                    {/* <img alt="landing" src={Landing_Page } className="landing-page"  /> */}
+                    {/* <div className="landing-page"></div> */}
+                    <div class="logo-header-1 centered1"><b>Do Something Great </b></div>
+                    <div class="logo-header centered"><b>Za<span>i</span>ba  <span>Iq</span>ba<span>l  </span>| Front-End Engineer </b></div>
                     {/* <div class="centered">Zaiba Iqbal | Front-End Engineer</div> */}
                 </div>
 

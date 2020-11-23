@@ -1,39 +1,53 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Thasadith&display=swap');
 .container {
     position: relative;
-    text-align: center;
-    color: white;
+    height: 35em;
+    width: 92%;
+    margin-left: 4rem;
+    margin-right: 4rem;
+   background-color: black;
+   border-radius: 14px;
 }
 
 .landing-page {
     height: 35em;
-    width: 94%;
+    width: 20rem;
     margin-left: 3rem;
     margin-right: 3rem;
+   color: black;
 }
 .centered{
     position: absolute;
     top: 83%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 50px;
+    font-size: 35px;
     /* font-weight: 600; */
+  }
+  .centered1{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
   }
   .logo-header {
     text-align: center;
     width: 65%;
-    /* height: 250px; */
     margin: auto;
     position: absolute;
-    top: 83%;
-    left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 50px;
      user-select: none;
   }
-  
+  .logo-header-1 b{
+    font: 400 14vh "Thasadith";
+    color: white;
+    width: max-content;
+    height: max-content;
+    text-shadow: 0 -40px 100px, 0 0 2px, 0 0 1em #55c2c2, 0 0 0.5em #1e6f75, 0 0 0.1em #145468, 0 10px 3px #000;
+  }
   .logo-header b{
-    font: 400 8vh "Vibur";
+    font: 400 6vh "Vibur";
     color: white;
     text-shadow: 0 -40px 100px, 0 0 2px, 0 0 1em #55c2c2, 0 0 0.5em #25a4ad, 0 0 0.1em #2c5e6d, 0 10px 3px #000;
   }
