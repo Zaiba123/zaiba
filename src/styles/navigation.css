@@ -1,11 +1,20 @@
 .sticky1 {
-    margin-top: 28%;
+    /* margin-top: 28%; */
+    z-index:1;
     position: fixed;
     top: 0;
-    margin-left: 1rem;
+    margin: 1rem;
     width: 100%;
     background-color:white ;
-    width: min-content;
+    width: 14rem;
+    padding-top:1rem;
+    padding-bottom:1rem;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px rgba(180,180,180,0.2);
+  }
+  .navlink {
+    margin-right:1rem;
+    margin-left:1rem;
   }
   .sticky2 {
     margin-top: 26%;
@@ -14,7 +23,18 @@
     top: 0;
     margin-right: 1rem;
     margin-left: 1rem;
-    width: 100%;
+    /* margin-top: 1rem; */
+    margin-bottom: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
     background-color:white ;
     width: min-content;
+    border-radius: 12px;
+    z-index: 1;
+    box-shadow: 5px 5px 5px rgba(180,180,180,0.2);
+
   }
+
+.media-link{
+  padding: 1rem 1rem;
+}

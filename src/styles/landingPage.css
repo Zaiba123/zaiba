@@ -2,13 +2,17 @@
 .container {
     position: relative;
     height: 35em;
-    width: 92%;
-    margin-left: 4rem;
-    margin-right: 4rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
    background-color: black;
    border-radius: 14px;
+   margin-top: 2rem;
+   margin-bottom: 4rem;
+   opacity: 0.8;
 }
-
+.container:hover {
+    opacity: 1.0;
+  }
 .landing-page {
     height: 35em;
     width: 100%;
@@ -18,7 +22,7 @@
 }
 .centered{
     position: absolute;
-    top: 83%;
+    top: 60%;
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 35px;
@@ -29,7 +33,8 @@
     top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font: 400 6vh "Thasadith";
+    font: 600 16vh "Arial";
+    color: white;
   }
  
   .logo-header {

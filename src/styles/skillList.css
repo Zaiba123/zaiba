@@ -2,14 +2,13 @@
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    max-width: 56rem;
+    max-width: 57rem;
     margin: auto;
 }
 
 .flex-container{
     padding: 1rem;
-    width: 12rem;
-    margin: 1rem;
-    background-color: #d095bf;
+    /* width: 5rem; */
+    /* background-color: #d095bf; */
     font-size: 20px;
 }
