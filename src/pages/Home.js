@@ -8,10 +8,10 @@ import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import EmailIcon from '@material-ui/icons/Email';
 import DescriptionIcon from '@material-ui/icons/Description';
 import '../components/project.css'
-import Projects from './Projects';
 import Goals from './Goals';
 import '../styles/landingPage.css'
 import '../styles/bio.css'
+import WorkAndProjects from '../components/WorkAndProjects';
 
 export default function Home() {
     return (
@@ -57,7 +57,8 @@ export default function Home() {
                 </div> */}
                 <br/>
                 <br />
-                <Projects />
+                {/* <Projects /> */}
+                <WorkAndProjects />
                 <Goals />
                 
             </div>
