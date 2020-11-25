@@ -4,6 +4,7 @@ import noYouChoose from '../images/noYouChoose.png';
 import React from 'react'
 import '../styles/workAndProjects.css'
 
+
 const WorkAndProjects = () => {
     const project =
         [
@@ -32,6 +33,9 @@ const WorkAndProjects = () => {
             },
         ]
     return (
+        <div>
+        <div class="logo"><b>W<span>o</span>r<span>k</span><span>+</span></b> <b>Pr<span>o</span>j<span>ec</span>ts</b> </div>
+
         <div className="all-cards">
             {
                 project.map(item => {
@@ -47,6 +51,7 @@ const WorkAndProjects = () => {
                     )
                 })
             }
+        </div>
         </div>
     )
 }
