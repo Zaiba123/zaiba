@@ -36,7 +36,7 @@ export default function Home() {
            
                 <p className="bio-container">
     
-                    <img alt="Profile" src={Zaiba_Iqbal}  className="profile" style={{ width:'17rem', borderRadius:'5px 20px 5px', marginLeft: "4rem", float:"left"}} />
+                    <img alt="Profile" src={Zaiba_Iqbal}  className="profile"  />
                     <div className="intro">
                         <b>ABOUT ME</b>
                          <br/> 
@@ -45,7 +45,9 @@ export default function Home() {
                         In my spare time I love learning new technolgies as well as improving on ones I'm currently working on. Besides coding 
                         I love crocheting and making just about anything I find online. I like being able to put my
                         creatvity into reality. To relax I love exploring the city and finding new places to eat and blog them on my page.
-                        <SkillList />
+                        <br/>
+                        <b> Here are some of my technical skills: </b>
+                        <SkillList className="skill-list"/>
                
                     </div>
                 </p>

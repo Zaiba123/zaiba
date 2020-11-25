@@ -5,7 +5,8 @@
 }
 
 .profile {
-    width:'16rem';
+    width:20rem;
+    /* height: 18rem; */
     border-radius:14px;
     margin: 1rem;
 }
