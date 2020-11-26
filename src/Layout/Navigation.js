@@ -30,7 +30,7 @@ const Navigation =()=> {
           <Link
             className='navlink'
             activeClass='active'
-            to='aboutme'
+            to='education'
             spy={true}
             smooth={true}
             offset={-70}

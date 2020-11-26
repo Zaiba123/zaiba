@@ -1,8 +1,5 @@
 
 @import url(//fonts.googleapis.com/css?family=Vibur);
-.project-body{
-  /* display: flex; */
-}
 
 .p-cards{
   display: flex;
@@ -12,8 +9,9 @@
 }
 .all-cards{
     /* display: flex;
-    
+        height: min-content;
     max-width: 85rem; */
+    height: min-content;
     justify-content: center;
     border-radius: 5px; /* 5px rounded corners */
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);

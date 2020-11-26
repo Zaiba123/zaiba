@@ -12,6 +12,7 @@ import '../components/project.css'
 import '../styles/landingPage.css'
 import '../styles/bio.css'
 import WorkAndProjects from '../components/WorkAndProjects';
+import Education from '../components/Education';
 
 export default function Home() {
     return (
@@ -59,7 +60,7 @@ export default function Home() {
                 <br />
                 {/* <Projects /> */}
                 <WorkAndProjects />
-                {/* <Goals /> */}
+                <Education />
                 
             </div>
         </div>
