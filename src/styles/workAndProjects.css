@@ -1,21 +1,31 @@
 
 @import url(//fonts.googleapis.com/css?family=Vibur);
-.all-cards{
-    display: flex;
-    flex-wrap: wrap;
-    max-width: 85rem;
-    justify-content: center;
-    border-radius: 5px; /* 5px rounded corners */
-
-    margin: auto;
-    
+.project-body{
+  /* display: flex; */
 }
 
-.card-project {
+.p-cards{
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 85rem;
+  justify-content: center;
+}
+.all-cards{
+    /* display: flex;
+    
+    max-width: 85rem; */
+    justify-content: center;
+    border-radius: 5px; /* 5px rounded corners */
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
     width: 40%;
     /* background: pink; */
+    margin: 1rem;
+    border-radius: 14px;
+    
+}
+
+.card-project {
     margin: 1rem;
     border-radius: 14px;
   }

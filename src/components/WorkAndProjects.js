@@ -7,6 +7,7 @@ import React from 'react'
 import GitHubIcon from '@material-ui/icons/GitHub';
 
 import '../styles/workAndProjects.css'
+import Cards from './Cards';
 
 
 const WorkAndProjects = () => {
@@ -44,7 +45,7 @@ const WorkAndProjects = () => {
                 img: pfizer,
                 imageTitle:"Business Technology Intern",
                 linkToProject:"https://www.pfizer.com/",
-                linkImage: <GitHubIcon />
+                linkImage: "Website:"
             },
             {
                 name: "Cups",
@@ -52,28 +53,16 @@ const WorkAndProjects = () => {
                 img: cupswork,
                 imageTitle:"Software Developer Intern",
                 linkToProject:"https://cupsworks.com/",
-                linkImage: <GitHubIcon />
+                linkImage: "Website:"
             },
         ]
     return (
-        <div  className="project-body">
+        <div  className="project-body ">
         <div class="logo"><b>W<span>o</span>r<span>k</span><span>+</span></b> <b>Pr<span>o</span>j<span>ec</span>ts</b> </div>
-
-        <div className="all-cards">
+        <div className="p-cards">
             {
-                project.map(item => {
-                    return(
-                        <div  className="card-project">
-                            <img src={item.img} alt="Avatar" className="image-project"/>
-                            <div className="container-project">
-                                <h4><b>{item.name}</b></h4> 
-                                <p>{item.description}</p> 
-                                <a href={item.linkToProject} > {item.linkImage} Click to view code</a>
-                            </div>
-                        </div>
-                       
-                    )
-                })
+    
+                project.map(item => <Cards name={item.name} description={item.description} img={item.img} classTitle={item.classTitle} imageTitle={item.imageTitle} linkToProject={item.linkToProject} linkImage={item.linkImage}/>)
             }
         </div>
         </div>

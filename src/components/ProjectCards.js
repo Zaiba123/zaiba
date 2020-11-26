@@ -11,7 +11,7 @@ import GitHubIcon from '@material-ui/icons/GitHub';
 import './project.css';
 
 
-export default function ProjectCards({name,description,picture,classTitle,imageTitle,linkToProject}) {
+export default function ProjectCards({name,description,img,classTitle,imageTitle,linkToProject,linkImage}) {
 
     return (
         <div>
@@ -24,7 +24,7 @@ export default function ProjectCards({name,description,picture,classTitle,imageT
                     alt="project"
                     height="200"
                     width="600"
-                    image={picture}
+                    image={img}
                     title={imageTitle}
                     />
                     <CardContent>
