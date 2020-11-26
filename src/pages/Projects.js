@@ -37,7 +37,7 @@ export default function Projects() {
         ]
 
     return (
-            <div className="project-body">
+            <div >
             <div class="logo"><b>W<span>o</span>r<span>k</span><span>+</span></b> <b>Pr<span>o</span>j<span>ec</span>ts</b> </div>
             <div className="bg-image-project">
             {

@@ -1,7 +1,11 @@
 import inChatNito from '../images/in-chat-nito.png';
 import eventurous from '../images/eventurous.png';
 import noYouChoose from '../images/noYouChoose.png';
+import cupswork from '../images/cupswork.png';
+import pfizer from '../images/pfizer.png';
 import React from 'react'
+import GitHubIcon from '@material-ui/icons/GitHub';
+
 import '../styles/workAndProjects.css'
 
 
@@ -14,6 +18,7 @@ const WorkAndProjects = () => {
                 img: inChatNito,
                 imageTitle:"In-chat-nito",
                 linkToProject:"https://github.com/Zaiba123/in-chat-nito",
+                linkImage: <GitHubIcon />
 
             },
             {
@@ -22,6 +27,7 @@ const WorkAndProjects = () => {
                 img: eventurous,
                 imageTitle:"Eventurous",
                 linkToProject:"https://github.com/Zaiba123/travel_buddy",
+                linkImage: <GitHubIcon />
 
             },
             {
@@ -30,10 +36,27 @@ const WorkAndProjects = () => {
                 img:noYouChoose,
                 imageTitle:"no-You-choose",
                 linkToProject:"https://github.com/Zaiba123/no_YOU_choose",
+                linkImage: <GitHubIcon />
+            },
+            {
+                name: "Pfizer",
+                description:"Conducted user research with 4 people of prioritized proposed features to build a functioning Figma prototype of social media enhancements for the Cancer patient app “Living With”, in order to present to senior management an updated version of the app that would better connect the Cancer patient community",
+                img: pfizer,
+                imageTitle:"Business Technology Intern",
+                linkToProject:"https://www.pfizer.com/",
+                linkImage: <GitHubIcon />
+            },
+            {
+                name: "Cups",
+                description:"Implemented user experience updates over website and email that went into production using ​React.js, Typescript, CSS,​ and HTML​ in order to inform the customer of company updates such as new features or programs",
+                img: cupswork,
+                imageTitle:"Software Developer Intern",
+                linkToProject:"https://cupsworks.com/",
+                linkImage: <GitHubIcon />
             },
         ]
     return (
-        <div>
+        <div  className="project-body">
         <div class="logo"><b>W<span>o</span>r<span>k</span><span>+</span></b> <b>Pr<span>o</span>j<span>ec</span>ts</b> </div>
 
         <div className="all-cards">
@@ -45,6 +68,7 @@ const WorkAndProjects = () => {
                             <div className="container-project">
                                 <h4><b>{item.name}</b></h4> 
                                 <p>{item.description}</p> 
+                                <a href={item.linkToProject} > {item.linkImage} Click to view code</a>
                             </div>
                         </div>
                        

@@ -1,14 +1,14 @@
 .f-box{
     display: flex;
-    justify-content: center;
+    justify-content: left;
     flex-wrap: wrap;
     max-width: 48rem;
 }
 
 .flex-container{
-    padding: 1rem;
+    justify-content: center;
+    padding: 1.1rem;
     font-size: 1.3rem;
-    margin-left: -1.1rem;
 }
 .sunflower-emoji{
     width: 1.2rem;
