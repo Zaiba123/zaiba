@@ -62,6 +62,11 @@
     text-shadow: 0 -40px 100px, 0 0 2px, 0 0 1em #f0c15b, 0 0 0.5em #cfb028, 0 0 0.1em #cf8f3a, 0 10px 3px rgb(210 152 45)
    
   }
+  .logob{
+    font: 400 6vh "Vibur";
+    color: white;
+    text-shadow: 0 -40px 100px, 0 0 2px, 0 0 1em #55c2c2, 0 0 0.5em #25a4ad, 0 0 0.1em #2c5e6d, 0 10px 3px #000;
+  }
   .logo b span{
     animation: blink linear infinite 2s;
   }

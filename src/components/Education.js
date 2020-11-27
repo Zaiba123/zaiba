@@ -12,7 +12,7 @@ const Education = () => {
                 description:"Graduated 2020 with a Computer Science degree",
                 img: hunter,
                 imageTitle:"Hunter",
-                linkToProject:"https://github.com/Zaiba123/in-chat-nito",
+                linkToProject:"https://hunter.cuny.edu/",
                 // linkImage: <GitHubIcon />
 
             },
@@ -21,7 +21,7 @@ const Education = () => {
                 description:  "Learn in-demand technologies like React, Node + Express, and PostgreSQL as well as industry best practices for design, implementation, and deployment such as MVC, version control with Git/GitHub, agile & scrum with Trello and Slack, test driven development, and CI/CD",
                 img: ctp,
                 imageTitle:"CUNY Tech Prep",
-                linkToProject:"https://github.com/Zaiba123/travel_buddy",
+                linkToProject:"https://cunytechprep.nyc/",
                 // linkImage: <GitHubIcon />
 
             },
