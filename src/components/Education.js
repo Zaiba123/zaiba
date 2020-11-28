@@ -13,7 +13,6 @@ const Education = () => {
                 img: hunter,
                 imageTitle:"Hunter",
                 linkToProject:"https://hunter.cuny.edu/",
-                // linkImage: <GitHubIcon />
 
             },
             {
@@ -22,7 +21,7 @@ const Education = () => {
                 img: ctp,
                 imageTitle:"CUNY Tech Prep",
                 linkToProject:"https://cunytechprep.nyc/",
-                // linkImage: <GitHubIcon />
+                
 
             },
         ]

@@ -1,16 +1,17 @@
 import React from 'react'
 import '../styles/workAndProjects.css'
 
-const Cards = ({name,description,img,linkImage,imageTitle,linkToProject}) => {
+const Cards = ({name,description,img,linkImage,imageTitle,linkToProject,linkText}) => {
     return (
         <div className="all-cards">
             {
                 <div className="card-project">
                     <img src={img} alt="Avatar" className="image-project"/>
                     <div className="container-project">
-                        <h4><b>{name}</b></h4> 
+                        <h4><b><a href={linkToProject} > {name} </a></b></h4> 
                         <p>{description}</p> 
-                        <a href={linkToProject} > {linkImage} Click to view code</a>
+                        <a href={linkToProject} > {linkImage}  </a>
+                        
                     </div>
                 </div>
             }

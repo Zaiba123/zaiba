@@ -19,7 +19,8 @@ const WorkAndProjects = () => {
                 img: inChatNito,
                 imageTitle:"In-chat-nito",
                 linkToProject:"https://github.com/Zaiba123/in-chat-nito",
-                linkImage: <GitHubIcon />
+                linkImage: <GitHubIcon />,
+                linkText: "Click to view code"
 
             },
             {
@@ -28,7 +29,8 @@ const WorkAndProjects = () => {
                 img: eventurous,
                 imageTitle:"Eventurous",
                 linkToProject:"https://github.com/Zaiba123/travel_buddy",
-                linkImage: <GitHubIcon />
+                linkImage: <GitHubIcon />,
+                linkText: "Click to view code"
 
             },
             {
@@ -37,7 +39,10 @@ const WorkAndProjects = () => {
                 img:noYouChoose,
                 imageTitle:"no-You-choose",
                 linkToProject:"https://github.com/Zaiba123/no_YOU_choose",
-                linkImage: <GitHubIcon />
+                linkImage: <GitHubIcon />,
+                linkText: "Click to view code"
+
+
             },
             {
                 name: "Pfizer",
@@ -45,7 +50,6 @@ const WorkAndProjects = () => {
                 img: pfizer,
                 imageTitle:"Business Technology Intern",
                 linkToProject:"https://www.pfizer.com/",
-                linkImage: "Website:"
             },
             {
                 name: "Cups",
@@ -53,7 +57,8 @@ const WorkAndProjects = () => {
                 img: cupswork,
                 imageTitle:"Software Developer Intern",
                 linkToProject:"https://cupsworks.com/",
-                linkImage: "Website:"
+                
+
             },
         ]
     return (
@@ -62,7 +67,7 @@ const WorkAndProjects = () => {
         <div className="p-cards">
             {
     
-                project.map(item => <Cards name={item.name} description={item.description} img={item.img} classTitle={item.classTitle} imageTitle={item.imageTitle} linkToProject={item.linkToProject} linkImage={item.linkImage}/>)
+                project.map(item => <Cards name={item.name} description={item.description} img={item.img} classTitle={item.classTitle} imageTitle={item.imageTitle} linkToProject={item.linkToProject} linkImage={item.linkImage} linkText={item.linkText}/>)
             }
         </div>
         </div>
