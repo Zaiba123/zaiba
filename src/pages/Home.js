@@ -13,6 +13,7 @@ import '../styles/landingPage.css'
 import '../styles/bio.css'
 import WorkAndProjects from '../components/WorkAndProjects';
 import Education from '../components/Education';
+import AboutMe from '../components/AboutMe';
 
 export default function Home() {
     return (
@@ -61,6 +62,7 @@ export default function Home() {
                 {/* <Projects /> */}
                 <WorkAndProjects />
                 <Education />
+                <AboutMe />
                 
             </div>
         </div>

@@ -27,6 +27,8 @@ const AboutMe = () => {
 
     return (
         <div>
+            <div class="logo"><b>Get to know me</b></div>
+
             {
                 aboutMe.map(item => <div><img src={item.img} alt={item.imageTitle} width="300" height="300"/></div>
                 )
