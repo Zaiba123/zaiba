@@ -2,6 +2,7 @@ import React from 'react'
 import RubikCube from '../images/RubikCube.jpeg'
 import crochet from '../images/crochet.jpeg'
 import sunflower from '../images/sunflower.jpeg'
+import '../styles/aboutme.css'
 
 
 const AboutMe = () => {
@@ -27,12 +28,15 @@ const AboutMe = () => {
 
     return (
         <div>
-            <div class="logo"><b>Get to know me</b></div>
+        <div class="logo"><b>Get to know me</b></div>
+        <div className="f-box">
+           
 
             {
-                aboutMe.map(item => <div><img src={item.img} alt={item.imageTitle} width="300" height="300"/></div>
+                aboutMe.map(item => <div className="about-me"><img src={item.img} alt={item.imageTitle} width="300" height="300" /></div>
                 )
             }
+        </div>
         </div>
     )
 }
