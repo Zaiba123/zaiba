@@ -33,7 +33,7 @@ const AboutMe = () => {
            
 
             {
-                aboutMe.map(item => <div className="about-me"><img src={item.img} alt={item.imageTitle} width="300" height="300" /></div>
+                aboutMe.map(item => <div className="about-me"><img src={item.img} alt={item.imageTitle} width="300" height="300" className="about-me-image"/></div>
                 )
             }
         </div>

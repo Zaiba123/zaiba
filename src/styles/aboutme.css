@@ -6,4 +6,9 @@
 }
 .about-me {
     display: flex;
+    margin: 1rem;
+    
+}
+.about-me-image {
+    border-radius: 14px;
 }
