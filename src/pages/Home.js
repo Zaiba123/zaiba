@@ -59,7 +59,6 @@ export default function Home() {
                 </div> */}
                 <br/>
                 <br />
-                {/* <Projects /> */}
                 <WorkAndProjects />
                 <Education />
                 <AboutMe />
