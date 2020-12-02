@@ -62,19 +62,3 @@
     color: white;
     text-shadow: 0 -40px 100px, 0 0 2px, 0 0 1em #55c2c2, 0 0 0.5em #25a4ad, 0 0 0.1em #2c5e6d, 0 10px 3px #000;
   }
-  /* .logo-header b span{
-    animation: blink linear infinite 2s;
-  }
-  .logo-header b span:nth-of-type(2){
-    animation: blink linear infinite 3s;
-  } */
-  
-  
-  /* .centered2{
-    position: absolute;
-    top: 92%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 30px;
-    font-weight: 600;
-  } */
