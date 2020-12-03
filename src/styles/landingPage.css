@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Thasadith&display=swap');
+.l-page-group{
+}
 .container {
     position: relative;
     height: 35em;
@@ -35,6 +37,7 @@
     transform: translate(-50%, -50%);
     font: 600 16vh "Arial";
     color: white;
+    width: 100%;
   }
  
   .logo-header {

@@ -6,6 +6,7 @@
 
 .profile {
     width:20rem;
+    min-width:14rem;
     /* height: 18rem; */
     border-radius:14px;
     margin: 1rem;

@@ -8,23 +8,21 @@ import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import EmailIcon from '@material-ui/icons/Email';
 import DescriptionIcon from '@material-ui/icons/Description';
 import '../components/project.css'
-// import Goals from './Goals';
 import '../styles/landingPage.css'
 import '../styles/bio.css'
 import WorkAndProjects from '../components/WorkAndProjects';
 import Education from '../components/Education';
-import AboutMe from '../components/AboutMe';
 
 export default function Home() {
     return (
         <div className="homepage">
             <div className="bg-image-home" style={{textAlign:"center"}}>
                 <div className="container">
-                    {/* <img alt="landing" src={Landing_Page } className="landing-page"  /> */}
-                    <img alt="stars" src={sunflower } className="landing-page"  />
-                    {/* <div className="landing-page"></div> */}
-                    <div class=" centered1"><b>Zaiba Iqbal </b></div>
-                    <div class="logo-header centered"><b> Front-End Engineer </b></div>
+                    <img alt="sunflower" src={sunflower } className="landing-page"  />
+                    <div className= "l-page-group">
+                        <div className=" centered1"><b>Zaiba Iqbal </b></div>
+                        <div className="logo-header centered"><b> Front-End Engineer </b></div>
+                    </div>
                     {/* <div class="centered">Zaiba Iqbal | Front-End Engineer</div> */}
                 </div>
                 <div className="sticky2">
@@ -61,7 +59,7 @@ export default function Home() {
                 <br />
                 <WorkAndProjects />
                 <Education />
-                <AboutMe />
+                {/* <AboutMe /> */}
                 
             </div>
         </div>
