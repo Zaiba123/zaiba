@@ -23,6 +23,11 @@
     border-radius: 14px;
     
 }
+@media screen and (max-width: 680px) {
+  .all-cards{
+    width: 100%;
+  }
+}
 
 .card-project {
     margin: 1rem;
