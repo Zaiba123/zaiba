@@ -21,7 +21,7 @@ export default function Home() {
                     <img alt="sunflower" src={sunflower } className="landing-page"  />
                     <div className= "l-page-group">
                         <div className=" centered1"><b>Zaiba Iqbal </b></div>
-                        <div className="logo-header centered"><b> Front-End Engineer </b></div>
+                        <div className="logo-header centered"><b> Front-End Engineer</b></div>
                     </div>
                     {/* <div class="centered">Zaiba Iqbal | Front-End Engineer</div> */}
                 </div>
