@@ -63,7 +63,7 @@ const WorkAndProjects = () => {
         ]
     return (
         <div  className="project-body ">
-        <div class="logo"><b>W<span>o</span>r<span>k</span><span>+</span></b> <b>Pr<span>o</span>j<span>ec</span>ts</b> </div>
+        <div class="logo"><b className="b-class">W<span>o</span>r<span>k</span><span>+</span></b> <b>Pr<span>o</span>j<span>ec</span>ts</b> </div>
         <div className="p-cards">
             {
     
