@@ -39,7 +39,7 @@
    margin-bottom: 4rem;
    opacity: 0.8;
 }
-.container:hover {
+.landing-page:hover {
     opacity: 1.0;
   }
 .landing-page {
@@ -47,7 +47,6 @@
     width: 100%;
     border-radius: 14px;
     object-fit: cover;
-   color: black;
 }
 .centered{
     position: absolute;
@@ -72,11 +71,11 @@
     }
   }
 
-  /* @media screen and (max-width: 900px) {
+  @media screen and (max-width: 500px) {
     .centered1{
     font: 600 6vh "Arial";
     }
-  } */
+  }
  
  
  
