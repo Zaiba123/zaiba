@@ -71,16 +71,12 @@
     font: 600 10vh "Arial";
     }
   }
-  @media screen and (max-width: 900px) {
-    .centered1{
-    font: 600 8vh "Arial";
-    }
-  }
-  @media screen and (max-width: 900px) {
+
+  /* @media screen and (max-width: 900px) {
     .centered1{
     font: 600 6vh "Arial";
     }
-  }
+  } */
  
  
  
@@ -109,7 +105,7 @@
     color: white;
     text-shadow: 0 -40px 100px, 0 0 2px, 0 0 1em #55c2c2, 0 0 0.5em #25a4ad, 0 0 0.1em #2c5e6d, 0 10px 3px #000;
   }
-  @media screen and (max-width: 580px) {
+  @media screen and (max-width: 590px) {
     .logo-header b{
     font: 600 5vh "Vibur";
     }
