@@ -28,7 +28,7 @@
   letter-spacing: 2px;
   margin: -1em 0 3em 0;
 } */
-.container {
+.container-flower {
     position: relative;
     height: 35em;
     margin-left: 2rem;
@@ -39,7 +39,7 @@
    margin-bottom: 4rem;
    opacity: 0.8;
 }
-.landing-page:hover {
+.container-flower:hover {
     opacity: 1.0;
   }
 .landing-page {
@@ -103,6 +103,11 @@
     font: 400 10vh "Vibur";
     color: white;
     text-shadow: 0 -40px 100px, 0 0 2px, 0 0 1em #55c2c2, 0 0 0.5em #25a4ad, 0 0 0.1em #2c5e6d, 0 10px 3px #000;
+  }
+  @media screen and (max-width: 900px) {
+    .logo-header b{
+    font: 600 8vh "Vibur";
+    }
   }
   @media screen and (max-width: 590px) {
     .logo-header b{
