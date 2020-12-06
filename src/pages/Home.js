@@ -39,7 +39,6 @@ export default function Home() {
                     <div className="intro">
                         <b>ABOUT ME</b>
                          <br/> 
-                         {/* Can do this with flex column  */}
                         Hi my name is Zaiba, I have a passion for solving problems in creative ways as well as creating things. 
                         In my spare time I love learning new technolgies as well as improving on ones I'm currently working on. Besides coding 
                         I love crocheting by making just about anything I find online. I like being able to put my
