@@ -25,11 +25,11 @@ export default function Home() {
                     </div>
                 </div>
                 <div className="sticky2">
-                    <a href="https://github.com/Zaiba123" className="media-link"> <GitHubIcon fontSize="large" style={{ color:'black',marginTop:".5rem"}} /></a>
-                    <a href="https://www.linkedin.com/in/zaiba-iqbal/" className="media-link"> <img alt="sunflower" src={linkedin } style={{ width:'35px',marginTop:".5rem"}}/></a>
-                    <a href="mailto:zaibaiqbal1@gmail.com" className="media-link"> <img alt="email" src={email } style={{ width:'35px',marginTop:".5rem"}}/></a>
-                    <a href="https://www.instagram.com/zfoodgal/" className="media-link"> <img alt="instagram" src={instagramLogo } style={{ width:'35px',marginTop:".5rem"}} /></a>
-                    <a href="Zaiba_Iqbal_Resume.pdf" download title="Resume" className="media-link"><img alt="sunflower" src={resume } style={{ width:'35px',marginTop:".5rem"}}/></a> 
+                    <a href="https://github.com/Zaiba123" className="media-link"> <GitHubIcon fontSize="large" style={{ color:'black',margin:"auto",marginTop:".5rem"}} /></a>
+                    <a href="https://www.linkedin.com/in/zaiba-iqbal/" className="media-link"> <img alt="sunflower" src={linkedin } style={{ width:'35px',margin:"auto",marginTop:".5rem"}}/></a>
+                    <a href="mailto:zaibaiqbal1@gmail.com" className="media-link"> <img alt="email" src={email } style={{ width:'35px',margin:"auto",marginTop:".5rem"}}/></a>
+                    <a href="https://www.instagram.com/zfoodgal/" className="media-link"> <img alt="instagram" src={instagramLogo } style={{ width:'35px',margin:"auto",marginTop:".5rem"}} /></a>
+                    <a href="Zaiba_Iqbal_Resume.pdf" download title="Resume" className="media-link"><img alt="sunflower" src={resume } style={{ width:'35px',margin:"auto",marginTop:".5rem"}}/></a> 
                 </div>
 
            
