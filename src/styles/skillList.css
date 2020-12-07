@@ -14,6 +14,11 @@
     /* width: 100%; */
     font-size:1.5vw;
 }
+@media screen and (max-width: 500px) {
+    .flex-container{
+        font-size:2.3vw;
+  }
+}
 .sunflower-emoji{
     width: 1.2rem;
 }
