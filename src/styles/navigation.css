@@ -17,6 +17,8 @@
     margin-left:1rem;
   }
   .sticky2 {
+    display: flex;
+    flex-direction: column;
     margin-top: 26%;
     right:0;
     position: fixed;
@@ -37,5 +39,5 @@
   }
 
 .media-link{
-  padding: 1rem 1rem;
+  padding: .4rem .4rem;
 }
