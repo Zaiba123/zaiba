@@ -7,7 +7,7 @@ const Cards = ({name,description,img,linkImage,imageTitle,linkToProject,linkText
             <div className="card-project">
                 <img src={img} alt="Avatar" className="image-project"/>
                 <div className="container-project">
-                    <h4><b><a href={linkToProject} > {name} </a></b></h4> 
+                    <h4><b><a className="project-link" href={linkToProject} > {name} </a></b></h4> 
                     <p className="project-text">{description}</p> 
                     <a href={linkToProject} > {linkImage}  </a>   
                 </div>
