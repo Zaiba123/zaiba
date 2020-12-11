@@ -1,13 +1,12 @@
-import inChatNito from '../images/in-chat-nito.png';
-import eventurous from '../images/eventurous.png';
-import noYouChoose from '../images/noYouChoose.png';
-import cupswork from '../images/cupswork.png';
-import pfizer from '../images/pfizer.png';
+import inChatNito from '../../images/in-chat-nito.png';
+import eventurous from '../../images/eventurous.png';
+import noYouChoose from '../../images/noYouChoose.png';
+import cupswork from '../../images/cupswork.png';
+import pfizer from '../../images/pfizer.png';
 import React from 'react'
 import GitHubIcon from '@material-ui/icons/GitHub';
-
-import '../styles/workAndProjects.css'
-import Cards from './Cards';
+import './workAndProjects.css'
+import Cards from '../../components/Cards';
 
 
 const WorkAndProjects = () => {

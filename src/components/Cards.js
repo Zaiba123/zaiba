@@ -1,5 +1,5 @@
 import React from 'react'
-import '../styles/workAndProjects.css'
+import '../components/WorkAndProjects/workAndProjects.css'
 
 const Cards = ({name,description,img,linkImage,imageTitle,linkToProject,linkText}) => {
     return (

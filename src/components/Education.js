@@ -1,7 +1,7 @@
 import React from 'react'
 import hunter from '../images/hunter.png';
 import ctp from '../images/ctp.jpg';
-import '../styles/workAndProjects.css'
+import '../components/WorkAndProjects/workAndProjects.css'
 import Cards from './Cards'
 
 const Education = () => {
