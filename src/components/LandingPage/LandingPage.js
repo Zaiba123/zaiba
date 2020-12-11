@@ -1,5 +1,7 @@
 import React from 'react';
 import sunflower from '../../images/sunflower.jpeg';
+import '../../components/LandingPage/landingPage.css'
+
 
 
 const LandingPage = () =>{

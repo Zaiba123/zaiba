@@ -1,14 +1,13 @@
 import React from 'react'
 import { Link } from "react-scroll"
-// import ComputerIcon from '@material-ui/icons/Computer';
-import education from '../images/education.webp';
-import project from '../images/project.png';
-import home from '../images/home.png';
-import bio from '../images/bio.webp';
+import education from '../../images/education.webp';
+import project from '../../images/project.png';
+import home from '../../images/home.png';
+import bio from '../../images/bio.webp';
 
-import '../styles/navigation.css';
+import '../Navigation/navigation.css';
 
-const Navigation =()=> {
+const Navigation = () => {
     return (
         <nav className="sticky1">
           <Link

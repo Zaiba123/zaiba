@@ -1,7 +1,8 @@
 import React from 'react';
-import SkillList from '../../components/SkillList'
+import SkillList from '../SkillList/SkillList'
 import Zaiba_Iqbal from '../../images/Zaiba_Iqbal.jpg';
 
+import '../../components/Bio/bio.css'
 
 const Bio = () => {
     return (

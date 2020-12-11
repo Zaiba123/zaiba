@@ -1,8 +1,7 @@
 import React from 'react';
-import sunflower from '../images/sunflowerEmoji.png'
-import '../styles/skillList.css'
+import sunflower from '../../images/sunflowerEmoji.png'
 
-
+import '../SkillList/skillList.css'
 
 export default function InteractiveList() {
   const languages = ["JavaScript","React.js","C++","Python","SQL","HTML","CSS","Redux","Git","SCSS","Node.js"]
@@ -13,7 +12,7 @@ export default function InteractiveList() {
                   languages.map(lan => {
                       return (
                           <div className="flex-container">
-                           <img alt="sunflower" src={sunflower } className="sunflower-emoji"  /> {lan}
+                            <img alt="sunflower" src={sunflower } className="sunflower-emoji"  /> {lan}
                           </div>
                       )
                   })

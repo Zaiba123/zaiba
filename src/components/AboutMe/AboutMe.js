@@ -2,7 +2,8 @@ import React from 'react'
 import RubikCube from '../images/RubikCube.jpeg'
 import crochet from '../images/crochet.jpeg'
 import sunflower from '../images/sunflower.jpeg'
-import '../styles/aboutme.css'
+
+import '../../components/AboutMe/aboutme.css'
 
 
 const AboutMe = () => {
