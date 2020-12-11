@@ -1,5 +1,4 @@
 import React from 'react'
-import '../components/project.css'
 import WorkAndProjects from '../components/WorkAndProjects/WorkAndProjects.js';
 import Education from '../components/Education';
 import Bio from '../components/Bio/Bio';
