@@ -22,11 +22,8 @@
 @media screen and (max-width: 500px) {
   .landing-page{
     height: 30em;
-    /* margin-bottom: 6rem; */
   }
 }
-
-
 @media screen and (max-width: 500px) {
   .container-flower{
     margin-bottom: 2rem;
@@ -83,13 +80,6 @@
     font: 400 6vh "Thasadith";
     }
 }
-  /* .logo-header-1 b{
-    font: 400 14vh "Thasadith";
-    color: white;
-    width: max-content;
-    height: max-content;
-    text-shadow: 0 -40px 100px, 0 0 2px, 0 0 1em #55c2c2, 0 0 0.5em #1e6f75, 0 0 0.1em #145468, 0 10px 3px #000;
-  } */
   .logo-header b{
     font: 400 10vh "Vibur";
     color: white;
