@@ -1,7 +1,7 @@
 import React from 'react'
 import '../components/WorkAndProjects/workAndProjects.css'
 
-const Cards = ({name,description,img,linkImage,linkToProject,linkText}) => {
+const Cards = ({name,description,img,linkImage,linkToProject}) => {
     return (
         <div className="all-cards">
             <div className="card-project">
