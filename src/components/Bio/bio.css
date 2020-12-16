@@ -44,7 +44,61 @@
 
 .aboutme-title {
     text-align: center;
-    font-weight: 800;
-    color: #8C4E18;
+    font: 400 5vh "Vibur";
+    color: white;
+    text-shadow: 0 -40px 100px, 0 0 2px, 0 0 1em #f0c15b, 0 0 0.5em #cfb028, 0 0 0.1em #cf8f3a, 0 10px 3px rgb(210 152 45)
 
 }
+.aboutme-title b{
+    text-align: center;
+    font: 400 5vh "Vibur";
+    color: white;
+    text-shadow: 0 -40px 100px, 0 0 2px, 0 0 1em #f0c15b, 0 0 0.5em #cfb028, 0 0 0.1em #cf8f3a, 0 10px 3px rgb(210 152 45)
+
+}
+.aboutme-technicalskills{
+    text-align: center;
+    font: 400 5vh "Vibur";
+    color: #fee;
+    text-shadow: 0 -40px 100px, 0 0 2px, 0 0 1em #f0c15b, 0 0 0.5em #cfb028, 0 0 0.1em #cf8f3a, 0 10px 3px rgb(210 152 45)
+
+}
+.aboutme-title b span{
+    animation: blink linear infinite 2s;
+  }
+  .aboutme-title b span:nth-of-type(2){
+    animation: blink linear infinite 3s;
+  }
+  @keyframes blink {
+    78% {
+      color: inherit;
+      text-shadow: inherit;
+    }
+    79%{
+       color: rgb(206, 188, 25);
+    }
+    80% {
+      
+      text-shadow: none;
+    }
+    81% {
+      color: inherit;
+      text-shadow: inherit;
+    }
+    82% {
+      color: rgb(250, 239, 89);
+      text-shadow: none;
+    }
+    83% {
+      color: inherit;
+      text-shadow: inherit;
+    }
+    92% {
+      color: rgb(221, 209, 38);
+      text-shadow: none;
+    }
+    92.5% {
+      color: inherit;
+      text-shadow: inherit;
+    }
+  }
