@@ -12,7 +12,7 @@ export default function InteractiveList() {
                   languages.map(lan => {
                       return (
                           <div className="flex-container">
-                            <img alt="sunflower" src={sunflower } className="sunflower-emoji"  /> {lan}
+                            <img alt="sunflower" src={sunflower} className="sunflower-emoji" /> {lan}
                           </div>
                       )
                   })
