@@ -1,8 +1,8 @@
 .f-box {
     display: flex;
     flex-wrap: wrap;
-  max-width: 85rem;
-  justify-content: center;
+    max-width: 85rem;
+    justify-content: center;
 }
 .about-me {
     display: flex;

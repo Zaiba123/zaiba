@@ -15,6 +15,7 @@
   .navlink {
     margin-right:1rem;
     margin-left:1rem;
+    cursor: pointer;
   }
   .sticky2 {
     display: flex;
