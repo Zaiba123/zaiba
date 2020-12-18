@@ -4,6 +4,7 @@ import Education from '../components/Education';
 import Bio from '../components/Bio/Bio';
 import LandingPage from '../components/LandingPage/LandingPage';
 import ContactInfo from '../Layout/ContactInfo';
+import Footer from '../components/Footer/Footer.js';
 
 export default function Home() {
     return (
@@ -15,6 +16,7 @@ export default function Home() {
                 <WorkAndProjects />
                 <Education />                
             </div>
+        <Footer />
         </div>
     )
 }
