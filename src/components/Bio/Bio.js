@@ -6,10 +6,11 @@ import '../../components/Bio/bio.css'
 
 const Bio = () => {
     return (
+        <div><div className="aboutme-title"><b>A<span>b</span>ou<span>t</span> M<span>e</span></b></div>
+    
         <div className="bio-container">
             <img alt="Profile" src={Zaiba_Iqbal}  className="profile"  />
             <div className="intro">
-                <div className="aboutme-title"><b>A<span>b</span>ou<span>t</span> M<span>e</span></b></div>
                 Hi my name is Zaiba, I love solving problems in creative ways as well as creating things. 
                 In my spare time I love learning new technologies as well as improving on ones I'm currently working on. Besides coding 
                 I love crocheting by making just about anything I find online such as scarfs, sweaters or stuffed animals. I like being able to put my
@@ -18,6 +19,7 @@ const Bio = () => {
                 <div className="aboutme-technicalskills "> Here are some of my technical skills: </div>
                 <SkillList className="skill-list"/>
             </div>
+        </div>
         </div>
     )
 }
