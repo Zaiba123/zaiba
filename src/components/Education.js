@@ -4,7 +4,7 @@ import ctp from '../images/ctp.jpg';
 import '../components/WorkAndProjects/workAndProjects.css'
 import Cards from './Cards'
 
-const Education = () => {
+const Education = ({style}) => {
     const education =
         [
             {
@@ -27,7 +27,7 @@ const Education = () => {
         ]
     return (
         <div className="education">
-            <div className="project-body ">
+            <div className="project-body " style={style}>
                 <div class="logo"><b>E<span>d</span>uc<span>a</span>t<span>i</span>on</b> </div>
                     <div className="p-cards">
                         {

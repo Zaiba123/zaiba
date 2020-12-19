@@ -9,7 +9,7 @@ import './workAndProjects.css'
 import Cards from '../../components/Cards';
 
 
-const WorkAndProjects = () => {
+const WorkAndProjects = ({style}) => {
     const project =
         [
             {
@@ -61,7 +61,7 @@ const WorkAndProjects = () => {
             },
         ]
     return (
-        <div  className="project-body ">
+        <div  className="project-body " style={style}>
         <div class="logo"><b className="b-class">W<span>o</span>r<span>k</span><span>+</span></b> <b>Pr<span>o</span>j<span>ec</span>ts</b> </div>
         <div className="p-cards">
             {
