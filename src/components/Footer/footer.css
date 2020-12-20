@@ -1,7 +1,18 @@
 .footer {
+    background-image: url("https://images.unsplash.com/photo-1537355233-8997913eaaa7?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxleHBsb3JlLWZlZWR8NHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=800&q=60");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:8rem;
+    background-position: center ;
+}
+
+.footer-text {
     text-align: center;
-    margin: 1rem;
-    font-size: 1.2rem;
-    color: grey;
-    font-weight: 500;
+    margin: 1.5rem;
+    padding-top: 2rem;
+    -webkit-text-stroke: 1.5px black;
+    font-size: 2.4rem;
+    color: white;
+  
+    font-weight: 600;
 }

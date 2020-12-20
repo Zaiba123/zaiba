@@ -4,7 +4,9 @@ import './footer.css'
 const Footer = () => {
     return (
         <div className="footer">
-           Designed and coded by Zaiba Iqbal 
+            <div className="footer-text">
+                Designed and coded by Zaiba Iqbal 
+           </div>
         </div>
     )
 }
