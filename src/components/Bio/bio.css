@@ -26,7 +26,7 @@
 
 .intro {
     margin-right: 4rem;
-    max-width: 48vw;
+    max-width: 40rem;
     min-height: 14rem;
     margin: 1rem;
     color: #8A5211;
@@ -35,11 +35,11 @@
     line-height: 2.2rem;
     font-size:1.2rem;
 }
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 600px) {
     .intro{
-        min-width: 78%;
+        min-width: 20rem;
         line-height: 1.9rem;
-        font-size:2.9vw;
+        font-size:1.1rem;
     }
   }
 
