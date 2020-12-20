@@ -37,3 +37,9 @@
         font-size: 1.2rem;
     }
   }
+.footer-link {
+    color: white;
+}
+.footer-link:visited {
+    color: white;
+  }

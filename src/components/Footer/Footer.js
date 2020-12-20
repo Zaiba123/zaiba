@@ -5,7 +5,8 @@ const Footer = () => {
     return (
         <div className="footer">
             <div className="footer-text">
-                Designed and coded by Zaiba Iqbal 
+                <a className="footer-link" href="https://github.com/Zaiba123/zaiba">Designed and coded by Zaiba Iqbal </a>
+                
            </div>
         </div>
     )
