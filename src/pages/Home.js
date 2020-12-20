@@ -13,7 +13,7 @@ export default function Home() {
                 <LandingPage />
                 <ContactInfo />
                 <Bio />
-                <WorkAndProjects style={{backgroundColor:"#f2f2f5"}}/>
+                <WorkAndProjects style={{backgroundColor:"rgb(242 242 245 / 49%)"}}/>
                 <Education style={{backgroundImage: "none"}} />                
             </div>
         <Footer />
