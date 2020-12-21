@@ -9,7 +9,7 @@ const Education = ({style}) => {
         [
             {
                 name:"Hunter College",
-                description:`Graduated 2020 with a Computer Science degree. I took an active role in my college by being a student senator. Took classes: Database Management, Cloud Computing, Software Engineering}`,
+                description:`Graduated 2020 with a Computer Science degree. I took an active role in my college by being a student senator. Took classes such as Database Management, Cloud Computing, Software Engineering, Web Development, Data structures and Algorithms`,
                 img: hunter,
                 imageTitle:"Hunter",
                 linkToProject:"https://hunter.cuny.edu/",
