@@ -14,7 +14,7 @@ const WorkAndProjects = ({style}) => {
         [
             {
                 name:"In-chat-nito",
-                description:"Application allows students who are shy to ask the teacher questions in real-time. Used React.js as well as socket.io.",
+                description:"Application allows students who are shy to ask the teacher questions in real-time. Used React.js as well as socket.io to create real time chat rooms for students to talk in.",
                 img: inChatNito,
                 imageTitle:"In-chat-nito",
                 linkToProject:"https://github.com/Zaiba123/in-chat-nito",
