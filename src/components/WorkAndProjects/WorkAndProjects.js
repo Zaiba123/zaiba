@@ -45,14 +45,14 @@ const WorkAndProjects = ({style}) => {
             },
             {
                 name: "Pfizer",
-                description:"Conducted user research with 4 people of prioritized proposed features to build a functioning Figma prototype of social media enhancements for the Cancer patient app “Living With”, in order to present to senior management an updated version of the app that would better connect the Cancer patient community",
+                description:"Conducted user research with 4 people of prioritized proposed features to build a functioning Figma prototype of social media enhancements for the Cancer patient app “Living With”, in order to present to senior management an updated version of the app that would better connect the Cancer patient community.",
                 img: pfizer,
                 imageTitle:"Business Technology Intern",
                 linkToProject:"https://www.pfizer.com/",
             },
             {
                 name: "Cups",
-                description:"Implemented user experience updates over website and email that went into production using ​React.js, Typescript, CSS,​ and HTML​ in order to inform the customer of company updates such as new features or programs",
+                description:"Implemented user experience updates over website and email that went into production using ​React.js, Typescript, CSS,​ and HTML​ in order to inform the customer of company updates such as new features or programs.",
                 img: cupswork,
                 imageTitle:"Software Developer Intern",
                 linkToProject:"https://cupsworks.com/",
