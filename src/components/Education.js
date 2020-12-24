@@ -9,7 +9,7 @@ const Education = ({style}) => {
         [
             {
                 name:"Hunter College",
-                description:`Graduated 2020 with a Computer Science degree. Took classes such as Database Management, Cloud Computing, Software Engineering, Web Development, as well as Data structures and Algorithms`,
+                description:"Graduated in 2020 with a Computer Science degree. Took classes such as Database Management, Cloud Computing, Software Engineering, Web Development, as well as Data structures and Algorithms.",
                 img: hunter,
                 imageTitle:"Hunter",
                 linkToProject:"https://hunter.cuny.edu/",
@@ -17,7 +17,7 @@ const Education = ({style}) => {
             },
             {
                 name: "CUNY Tech Prep",
-                description:  "Learned in-demand technologies like React, Node + Express, and PostgreSQL as well as industry best practices for design, implementation, and deployment such as MVC, version control with Git/GitHub, agile & scrum with Trello and Slack, test driven development, and CI/CD",
+                description:  "Learned in-demand technologies like React, Node + Express, and PostgreSQL as well as industry best practices for design, implementation, and deployment such as MVC, version control with Git/GitHub, agile & scrum with Trello and Slack, test driven development, and CI/CD.",
                 img: ctp,
                 imageTitle:"CUNY Tech Prep",
                 linkToProject:"https://cunytechprep.nyc/",
