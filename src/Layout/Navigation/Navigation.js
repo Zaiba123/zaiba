@@ -18,7 +18,7 @@ const Navigation = () => {
             smooth={true}
             offset={-70}
             duration={500}>
-          <span role="img" aria-label="home"><img alt="homepage" src={home } style={{ width:'35px',height:"35px"}} /></span></Link>
+          <span role="img" aria-label="home"><img alt="homepage" src={home} style={{ width:'35px',height:"35px"}} /></span></Link>
           <Link
             className='navlink'
             activeClass='active'
