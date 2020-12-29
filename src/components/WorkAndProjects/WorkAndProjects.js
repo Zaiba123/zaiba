@@ -4,10 +4,11 @@ import noYouChoose from '../../images/noYouChoose.png';
 import cupswork from '../../images/cupswork.png';
 import pfizer from '../../images/pfizer.png';
 import React from 'react'
-import GitHubIcon from '@material-ui/icons/GitHub';
-import './workAndProjects.css'
 import Cards from '../../components/Cards';
 
+import GitHubIcon from '@material-ui/icons/GitHub';
+
+import './workAndProjects.css'
 
 const WorkAndProjects = ({style}) => {
     const project =
