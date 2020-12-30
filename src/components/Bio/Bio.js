@@ -7,7 +7,6 @@ import '../../components/Bio/bio.css'
 const Bio = () => {
     return (
         <div><div className="aboutme-title"><b>A<span>b</span>ou<span>t</span> M<span>e</span></b></div>
-    
         <div className="bio-container">
             <img alt="Profile" src={Zaiba_Iqbal}  className="profile"  />
             <div className="intro">
