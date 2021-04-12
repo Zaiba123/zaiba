@@ -10,7 +10,7 @@ const LandingPage = () =>{
             <img alt="sunflower" src={sunflower} className="landing-page"  />
             <div className= "l-page-group">
                 <div className="centered1"><b>Zaiba Iqbal </b></div>
-                <div className="logo-header centered"><b> Front-End Engineer</b></div>
+                <div className="logo-header centered"><b> Full Stack Engineer</b></div>
             </div>
         </div>
     )
